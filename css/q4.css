@@ -1,0 +1,362 @@
+/* main */
+:root {
+  --yellow: #FFCC00;
+  --red: #FF0000;
+  --pink: #FF99CC;
+  --green: #00CC66;
+  --cyan: #00FFFF;
+  --blue: #0099FF;
+  --violet: #9900FF;
+  --font-light: bandeins_strangelight;
+  --font-regular: bandeins_strangeregular;
+  --font-bold: bandeins_strangebold;
+  --font-medium: bandeins_strangemedium;
+}
+
+p {
+  font-size: 2rem;
+  font-family: bandeinsstrangeregular;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body, html {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--pink);
+  overflow: hidden;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--pink);
+  position: relative;
+  width: 100vw;
+}
+
+a:hover {
+  color: black;
+}
+
+/* Font Faces */
+@font-face {
+  font-family: 'bandeins_strangebold';
+  src: url('../css/fonts/bandeinsstrangebold-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangebold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangeregular';
+  src: url('../css/fonts/bandeinsstrangeregular-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangeregular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangesemi_bold';
+  src: url('../css/fonts/bandeinsstrangesemibold-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangesemibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangelight';
+  src: url('../css/fonts/bandeinsstrangelight-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangelight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangemedium';
+  src: url('../css/fonts/bandeinsstrangemedium-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangemedium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* testo che scorre */
+.marquee {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0;
+}
+
+.marquee span {
+  margin: 0;
+  display: inline-block;
+  padding-left: 0% !important;
+  animation: marquee 5s linear infinite;
+  font-family: var(--font-light);
+  font-size: 2rem;
+}
+
+.rect {
+  text-align: center;
+  background-color: var(--blue);
+  border: 2px solid black !important;
+  margin: 0;
+}
+
+.text {
+  padding: 0;
+  color: white;
+}
+
+/* Make it move */
+@keyframes marquee {
+  10% {
+    transform: translate(100, 0);
+  }
+
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+/* elementi principali */
+.table {
+  margin-bottom: 0;
+  height: 100vh;
+}
+
+.table th {
+  vertical-align: middle;
+  padding: 0;
+  border: 2px solid black;
+}
+
+.table td {
+  padding: 0;
+  vertical-align: middle;
+}
+
+.primariga {
+  height: 2rem;
+  border-bottom: 2px solid black;
+}
+
+.clessidra {
+  background-color: var(--pink);
+  border: 0.5px solid black;
+  width: 3.5rem;
+  text-align: center;
+  padding: .75rem !important;
+}
+
+#imgcles {
+  width: 60%;
+  height: auto;
+}
+
+.titoloriga {
+  font-size: 1.6rem;
+  font-family: var(--font-light);
+  margin-bottom: 0;
+  margin-left: 1rem;
+}
+
+.title {
+  background-color: var(--pink);
+  border: 0.5px solid black;
+  padding: .75rem !important;
+}
+
+.numerotest {
+  text-align: left;
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+.numero {
+  background-color: var(--pink);
+  width: 3.5rem;
+  line-height: 2rem;
+  border: 2px solid black;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.tempo {
+  background-color: var(--pink);
+  border: 2px solid black;
+  border-right: 2px solid black;
+  text-align: center;
+}
+
+.giustosbagliato {
+  border: 2px solid black;
+  border-right: 2px solid black;
+  text-align: center;
+}
+
+/* css relativo alla barra della tempo */
+.rettangolo-segnaposto {
+  margin: 1rem auto;
+  width: 1.8rem;
+  height: 70%;
+  /* border-radius: 40px; */
+  border: 0px solid black;
+  background: none;
+}
+
+.rettangolo-bianco {
+  margin: 1rem auto;
+  width: 1.8rem;
+  height: 70%;
+  /* border-radius: 40px; */
+  border: 0px solid black;
+  background: white;
+  position: absolute;
+  top: 13%;
+  left: 1%;
+  z-index: 0;
+}
+
+.rettangolo-rosso {
+  margin: 1rem auto;
+  width: 1.8rem;
+  height: 70%;
+  /* border-radius: 40px; */
+  border: 0px solid black;
+  background: var(--green);
+  position: absolute;
+  top: 13%;
+  left: 1%;
+  z-index: 1;
+}
+
+.rettangolo-border {
+  margin: 1rem auto;
+  width: 1.8rem;
+  height: 70%;
+  /* border-radius: 40px; */
+  border: 2px solid black;
+  background: none;
+  position: absolute;
+  top: 13%;
+  left: 1%;
+  z-index: 4;
+}
+
+.principale {
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+.Q {
+  cursor: pointer;
+}
+
+#Q4{
+  width: 70%;
+}
+
+#prog {
+  width: 50%;
+  vertical-align: middle;
+}
+
+
+/* svg */
+.cls-1,
+.cls-5 {
+  fill: none;
+}
+.cls-2 {
+  fill: #fff;
+}
+.cls-3 {
+  fill: url("#Nuovo_pattern_3");
+}
+.cls-4,
+.cls-6 {
+  fill: red;
+}
+.cls-4,
+.cls-5,
+.cls-7 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+.cls-6 {
+  opacity: 0.5;
+}
+.cls-7 {
+  fill: url("#pois_bianchi");
+}
+
+.cls-15,
+.cls-16,
+.cls-12,
+.cls-13,
+.cls-14 {
+  fill: #010101;
+}
+
+
+
+.cls-16,
+.cls-12,
+.cls-13,
+.cls-14 {
+  font-size: 25px;
+  font-family: BandeinsStrangeSemiBold, Bandeins Strange;
+}
+
+.cls-10 {
+  letter-spacing: 0.015em;
+}
+
+.cls-11 {
+  letter-spacing: -0.00898em;
+}
+
+.cls-12 {
+  letter-spacing: -0.02em;
+}
+
+.cls-13 {
+  letter-spacing: -0.01em;
+}
+
+.cls-14 {
+  letter-spacing: -0.03em;
+}
+
+
+/* Transizione */
+
+.animate-in {
+    -webkit-animation: fadeIn .5s ease-in;
+    animation: fadeIn .5s ease-in;
+}
+
+.animate-out {
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+    opacity: 0;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

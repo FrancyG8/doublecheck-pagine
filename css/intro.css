@@ -1,0 +1,516 @@
+/* main */
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --yellow: #FFCC00;
+  --red: #FF0000;
+  --pink: #FF99CC;
+  --green: #00CC66;
+  --cyan: #00FFFF;
+  --blue: #0099FF;
+  --violet: #9900FF;
+  --font-light: bandeins_strangelight;
+  --font-regular: bandeins_strangeregular;
+  --font-bold: bandeins_strangebold;
+  --font-medium: bandeins_strangemedium;
+  --font-semibold: bandeins_strangesemi_bold;
+  --font-var: bandeins_strangeSBdExfull;
+  --font-varbold: bandeins_strangeBdExfull;
+}
+
+/* Font Faces */
+@font-face {
+  font-family: 'bandeins_strangebold';
+  src: url('../css/fonts/bandeinsstrangebold-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangebold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangeregular';
+  src: url('../css/fonts/bandeinsstrangeregular-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangeregular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangesemi_bold';
+  src: url('../css/fonts/bandeinsstrangesemibold-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangesemibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangelight';
+  src: url('../css/fonts/bandeinsstrangelight-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangelight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangemedium';
+  src: url('../css/fonts/bandeinsstrangemedium-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangemedium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'bandeins_strangeSBdExfull';
+    src: url('../css/fonts/bandeinsstrangesemiboldextendedfull-webfont.woff2') format('woff2'),
+         url('../css/fonts/bandeinsstrangesemiboldextendedfull-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bandeins_strangeBdExfull';
+    src: url('../css/fonts/bandeinsstrangeboldextendedfull-webfont.woff2') format('woff2'),
+         url('../css/fonts/bandeinsstrangeboldextendedfull-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+footer .container-fluid {
+  position: fixed;
+  bottom: 2rem;
+}
+
+.body1 {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--violet);
+  position: relative;
+}
+
+.body2 {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--cyan);
+  position: relative;
+}
+
+.body3 {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--green);
+  position: relative;
+}
+
+.body4 {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--red);
+  position: relative;
+}
+
+.body5 {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--yellow);
+  position: relative;
+}
+
+.bodyright {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--white);
+  position: relative;
+}
+
+.bodywrong {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--black);
+  position: relative;
+}
+
+.bodytime {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--red);
+  position: relative;
+}
+
+/* home page */
+
+.logobar {
+  height: 80px;
+}
+
+.nav {
+  height: 9vh;
+  background-color: var(--violet);
+  border-bottom: 3px solid black;
+  z-index: 100;
+  position: relative;
+
+}
+
+.title1 {
+  font-family: var(--font-var);
+  color: white;
+  font-size: 2rem;
+  margin: 0;
+}
+
+a:hover.sottolineatura {
+  text-decoration: none;
+}
+
+.title2 {
+  font-family: var(--font-var);
+  color: black;
+  font-size: 2rem;
+}
+
+.title3 {
+  font-family: var(--font-semibold);
+  color: black;
+  font-size: 1.8rem;
+}
+
+.logo {
+  height: 80px;
+  padding: 2vh 0 0 2rem;
+  margin: 0;
+}
+
+.page {
+  height: 80px;
+  padding: 1rem 2rem 0 0;
+  text-align: right;
+  margin: 0;
+}
+
+.whatsbehind {
+  height: 9vh;
+  padding: 2vh 3rem 0 0;
+  text-align: right;
+  margin: 0;
+  background-color: var(--white);
+  color: var(--black);
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  z-index: 10;
+}
+
+.text1 {
+  margin: 5.5rem 0 0 0;
+  padding: 0;
+  font-family: var(--font-light);
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: white;
+}
+
+.text2 {
+  margin: 5.5rem 0 0 0;
+  padding: 0;
+  font-family: var(--font-light);
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: black;
+}
+
+.banner {
+  text-align: center;
+  font-family: var(--font-bold);
+  font-size: 7rem;
+  line-height: 3rem;
+  color: black;
+}
+
+.subtitle {
+  font-family: var(--font-semibold);
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+}
+
+.start {
+  margin-top: 2rem;
+  text-align: center;
+  z-index: 999;
+}
+
+.immagini {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.underline1 {
+  color: var(--yellow);
+  text-decoration: underline;
+}
+
+.underline2 {
+  color: var(--violet);
+  text-decoration: underline;
+}
+
+.underline3 {
+  color: var(--black);
+  text-decoration: underline;
+}
+
+#PrevVIOLA {
+  margin-left: 1.5rem;
+  width: 63%;
+  cursor: pointer;
+}
+
+#NextVIOLA {
+  width: 63%;
+  margin-right: 1.5rem;
+  float: right;
+  cursor: pointer;
+}
+
+#PrevCYAN {
+  margin-left: 1.5rem;
+  width: 63%;
+  cursor: pointer;
+}
+
+#NextCYAN {
+  width: 63%;
+  margin-right: 1.5rem;
+  float: right;
+  cursor: pointer;
+}
+
+#PrevGREEN {
+  margin-left: 1.5rem;
+  width: 63%;
+  cursor: pointer;
+}
+
+#NextGREEN {
+  width: 63%;
+  margin-right: 1.5rem;
+  float: right;
+  cursor: pointer;
+}
+
+#gotoquiz {
+  width: 200%;
+  margin-right: 1.5rem;
+  float: right;
+  cursor: pointer;
+}
+
+#immaginees1 {
+  width: 65%;
+  margin-top: 1.5rem;
+}
+
+#immaginees2 {
+  width: 82%;
+  margin-top: 1.5rem;
+}
+
+#immaginees3 {
+  width: 92%;
+  margin-top: 1.5rem;
+}
+
+#START {
+  width: 40%;
+  cursor: pointer;
+}
+
+#HarveyI {
+  margin-top: -8%;
+  margin-left: 30%;
+  width: 20%;
+}
+
+#AmazonAL {
+  margin-top: -5%;
+  margin-left: -40%;
+  width: 20%;
+}
+
+#ActorF {
+  margin-top: -5%;
+  margin-left: -80%;
+  width: 40%;
+}
+
+#BrexitA {
+  margin-top: 0;
+  margin-left: 78%;
+  width: 40%;
+}
+
+#DoumaAB1 {
+  margin-top: 3%;
+  margin-left: 115%;
+  width: 40%;
+}
+
+#HarveyL {
+  margin-top: 10%;
+  margin-left: 80%;
+  width: 40%;
+}
+
+#AmazonE {
+  margin-top: -3%;
+  margin-left: -60%;
+  width: 9.5%;
+}
+
+#FakeTrumpB {
+  margin-top: 17%;
+  margin-left: -65%;
+  width: 20%;
+}
+
+#ActorC {
+  margin-top: 10%;
+  margin-left: 60%;
+  width: 20%;
+}
+
+#Flight17M {
+  margin-top: 33%;
+  margin-left: 5%;
+  width: 40%;
+}
+
+#IranD {
+  margin-top: 10%;
+  margin-left: -85%;
+  width: 40%;
+}
+
+#HeroDogA2 {
+  margin-top: -3%;
+  margin-left: 85%;
+  width: 40%;
+}
+
+#Flight17A {
+  margin-top: 5%;
+  margin-left: 78%;
+  width: 40%;
+}
+
+#Flight370F {
+  margin-top: 20%;
+  margin-left: 60%;
+  width: 30%;
+}
+
+#HarveyG {
+  margin-top: 5%;
+  margin-left: 67%;
+  width: 30%;
+}
+
+#AmazonAB {
+  margin-top: -10%;
+  margin-left: 15%;
+  width: 30%;
+}
+
+#SummitTrump {
+  margin-top: -15%;
+  margin-left: -40%;
+  width: 40%;
+}
+
+#HurricaneFlorence {
+  margin-top: -9%;
+  margin-left: 85%;
+  width: 40%;
+}
+
+#CataloniaN {
+  margin-top: -10%;
+  margin-left: 30%;
+  width: 40%;
+}
+
+#AmazonB {
+  margin-top: -11%;
+  margin-left: 80%;
+  width: 40%;
+}
+
+#right {
+  width: 50%;
+}
+
+#wrong {
+  width: 50%;
+}
+
+#time {
+  width: 50%;
+}
+
+/* Transizione */
+
+.animate-in {
+    -webkit-animation: fadeIn .5s ease-in;
+    animation: fadeIn .5s ease-in;
+}
+
+.animate-out {
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+    opacity: 0;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

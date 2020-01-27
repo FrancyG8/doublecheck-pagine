@@ -1,0 +1,355 @@
+/* main */
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --yellow: #FFCC00;
+  --red: #FF0000;
+  --pink: #FF99CC;
+  --green: #00CC66;
+  --cyan: #00FFFF;
+  --blue: #0099FF;
+  --violet: #9900FF;
+  --font-light: bandeins_strangelight;
+  --font-regular: bandeins_strangeregular;
+  --font-bold: bandeins_strangebold;
+  --font-medium: bandeins_strangemedium;
+  --font-semibold: bandeins_strangesemi_bold;
+  --font-var: bandeins_strangeSBdExfull;
+  --font-varbold: bandeins_strangeBdExfull;
+}
+
+/* Font Faces */
+@font-face {
+  font-family: 'bandeins_strangebold';
+  src: url('../css/fonts/bandeinsstrangebold-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangebold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangeregular';
+  src: url('../css/fonts/bandeinsstrangeregular-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangeregular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangesemi_bold';
+  src: url('../css/fonts/bandeinsstrangesemibold-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangesemibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangelight';
+  src: url('../css/fonts/bandeinsstrangelight-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangelight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangemedium';
+  src: url('../css/fonts/bandeinsstrangemedium-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangemedium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'bandeins_strangeSBdExfull';
+    src: url('../css/fonts/bandeinsstrangesemiboldextendedfull-webfont.woff2') format('woff2'),
+         url('../css/fonts/bandeinsstrangesemiboldextendedfull-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bandeins_strangeBdExfull';
+    src: url('../css/fonts/bandeinsstrangeboldextendedfull-webfont.woff2') format('woff2'),
+         url('../css/fonts/bandeinsstrangeboldextendedfull-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+footer .container-fluid {
+  position: fixed;
+  bottom: 2rem;
+}
+
+.body1 {
+  min-height: 100%;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: var(--blue);
+  position: relative;
+}
+
+/* home page */
+
+.logobar {
+  height: 80px;
+}
+
+.nav {
+  height: 9vh;
+  background-color: var(--violet);
+  border-bottom: 3px solid black;
+  z-index: 100;
+  position: relative;
+}
+
+.title1 {
+  font-family: var(--font-var);
+  color: white;
+  font-size: 2rem;
+  margin: 0;
+}
+
+a:hover.sottolineatura {
+  text-decoration: none;
+}
+
+.title2 {
+  font-family: var(--font-var);
+  color: black;
+  font-size: 2rem;
+}
+
+.title3 {
+  font-family: var(--font-semibold);
+  color: black;
+  font-size: 2rem;
+}
+
+.logo {
+  height: 80px;
+  padding: 2vh 0 0 2rem;
+  margin: 0;
+}
+
+.page {
+  height: 80px;
+  padding: 1rem 2rem 0 0;
+  text-align: right;
+  margin: 0;
+}
+
+.whatsbehind {
+  height: 9vh;
+  padding: 2vh 3rem 0 0;
+  text-align: right;
+  margin: 0;
+  background-color: var(--white);
+  color: var(--black);
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  z-index: 10;
+}
+
+.text1 {
+  margin: 5.5rem 0 0 0;
+  padding: 0;
+  font-family: var(--font-light);
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: white;
+}
+
+.text2 {
+  margin: 5.5rem 0 0 0;
+  padding: 0;
+  font-family: var(--font-light);
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: black;
+}
+
+.anchor {
+  padding: 0;
+  margin: auto;
+}
+
+.box {
+  padding: 0;
+  margin: auto;
+  width: 180px;
+  height: 84vh;
+  overflow-y: scroll;
+  border: 3px solid black;
+}
+
+.card-text {
+  font-family: var(--font-regular);
+  font-size: 1.7rem;
+  line-height: 2.2rem;
+  padding: 0 8rem 0 6rem;
+
+}
+
+.card-text.names {
+  font-family: var(--font-regular);
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  padding: 3rem 6rem 0 6rem;
+}
+
+.cit {
+  font-family: var(--font-regular);
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  padding: 0 10rem 0 10rem;
+
+}
+
+.dida {
+  font-family: var(--font-regular);
+  font-size: 1rem;
+  line-height: 0.5rem;
+  padding: 0 1rem 0 0;
+
+}
+
+.card-title {
+  font-family: var(--font-semibold);
+  padding: 6rem 0 0 6rem;
+  margin: 0;
+}
+
+.subtitle {
+  font-family: var(--font-semibold);
+  padding: 0 0 2rem 6rem;
+  margin: 0;
+}
+
+.subtitlemiddle {
+  font-family: var(--font-semibold);
+  padding: 2rem 0 2rem 6rem;
+}
+
+.card-header {
+  border-radius: 0px !important;
+  font-size: 1.3rem;
+  padding-left: 2rem;
+  font-family: var(--font-semibold);
+  background-color: var(--pink);
+  border-bottom: 3px solid black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+.card-body {
+  background-color: var(--white);
+  border-radius: 0px;
+}
+
+.card-body img {
+  margin: 2rem 0 3rem 4rem;
+  width: 80%;
+}
+
+.card-body img.topic {
+  margin: 2rem 0 3rem 18rem;
+  width: 30%;
+}
+
+.card-body img.topicsmall {
+  margin: 2rem 0 2rem 15rem;
+  width: 40%;
+}
+
+.card-body img.topicbig {
+  margin: 3rem 0 2rem 12rem;
+  width: 50%;
+}
+
+.card-body img.infografica {
+  margin: 2rem 0 2rem 0;
+  width: 100%;
+}
+
+.card-body img.dorian {
+  margin: 2.5rem 0 1rem 0;
+  width: 100%;
+}
+
+.card-body a {
+  font-family: var(--font-regular);
+  color: var(--violet);
+  text-decoration: none;
+  font-size: 1.7rem;
+  line-height: 2.2rem;
+}
+
+.card-body a:hover {
+  font-family: var(--font-regular);
+  color: var(--violet);
+  text-decoration: underline;
+  font-size: 1.7rem;
+  line-height: 2.2rem;
+}
+
+::-webkit-scrollbar {
+    width: 50px;
+    background-color: var(--white);
+}
+::-webkit-scrollbar-thumb {
+    height: 4px;
+    border: 3px solid white;
+    background-clip: padding-box;
+    -webkit-border-radius: 40px;
+    background-color: var(--yellow);
+    -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05), inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+}
+
+::-webkit-scrollbar-button:vertical:start:decrement {
+  display: block;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  background-color: var(--pink);
+  height: 3.65rem;
+  background-image: url(../assets/Freccina.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
+#Anchor1 {
+  width: 75%;
+  margin: 0 0 2vh 0;
+  cursor: pointer;
+}
+
+#Anchor2 {
+  width: 75%;
+  margin: 0 0 2vh 0;
+  cursor: pointer;
+}
+
+#Anchor3 {
+  width: 75%;
+  margin: 0 0 2vh 0;
+  cursor: pointer;
+}
+
+#Anchor4 {
+  width: 75%;
+  cursor: pointer;
+}

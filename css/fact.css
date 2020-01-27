@@ -1,0 +1,262 @@
+/* main */
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --yellow: #FFCC00;
+  --red: #FF0000;
+  --pink: #FF99CC;
+  --green: #00CC66;
+  --cyan: #00FFFF;
+  --blue: #0099FF;
+  --violet: #9900FF;
+  --font-light: bandeins_strangelight;
+  --font-regular: bandeins_strangeregular;
+  --font-bold: bandeins_strangebold;
+  --font-medium: bandeins_strangemedium;
+  --font-semibold: bandeins_strangesemi_bold;
+  --font-var: bandeins_strangeSBdExfull;
+  --font-varbold: bandeins_strangeBdExfull;
+}
+
+p {
+  font-size: 2rem;
+  font-family: bandeinsstrangeregular;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body, html {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/*body*/
+#w {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  position: relative;
+  width: 100vw;
+}
+
+#r {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF;
+  position: relative;
+  width: 100vw;
+}
+
+#warning {
+    background-color: var(--red);
+}
+a:hover {
+  color: black;
+}
+
+/* Font Faces */
+@font-face {
+  font-family: 'bandeins_strangebold';
+  src: url('../css/fonts/bandeinsstrangebold-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangebold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangeregular';
+  src: url('../css/fonts/bandeinsstrangeregular-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangeregular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangesemi_bold';
+  src: url('../css/fonts/bandeinsstrangesemibold-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangesemibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangelight';
+  src: url('../css/fonts/bandeinsstrangelight-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangelight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'bandeins_strangemedium';
+  src: url('../css/fonts/bandeinsstrangemedium-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangemedium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'bandeins_strangeSBdExfull';
+    src: url('../css/fonts/bandeinsstrangesemiboldextendedfull-webfont.woff2') format('woff2'),
+         url('../css/fonts/bandeinsstrangesemiboldextendedfull-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bandeins_strangeBdExfull';
+    src: url('../css/fonts/bandeinsstrangeboldextendedfull-webfont.woff2') format('woff2'),
+         url('../css/fonts/bandeinsstrangeboldextendedfull-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.db-r {
+  font-family: var(--font-var);
+  font-size: 180%;
+  margin-top: 5%;
+  margin-left: 5%;
+  color: black;
+}
+
+.db-w {
+  font-family: var(--font-var);
+  font-size: 180%;
+  margin-top: 5%;
+  margin-left: 5%;
+  color: #FFF;
+}
+
+/* svg */
+.cls-1 {
+  fill: #fc0;
+}
+
+.cls-2,
+.cls-5 {
+  fill: #fff;
+}
+
+.cls-5 {
+  font-size: 40px;
+  font-family: BandeinsStrangeSemiBold, Bandeins Strange;
+}
+
+.cls-4 {
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-3 {
+  fill: url(#pois_bianchi);
+}
+
+.cls-8 {
+  fill: none;
+}
+
+.cls-9 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-6 {
+  letter-spacing: 0.01799em;
+}
+
+.cls-7 {
+  letter-spacing: -0.01799em;
+}
+
+.cls-10 {
+  font-size: 40px;
+  fill: #1d1d1b;
+  font-family: BandeinsStrangeSemiBold, Bandeins Strange;
+}
+
+.cls-11 {
+  fill: url(#Nuovo_pattern_3);
+}
+
+.cls-12 {
+  fill: #fff;
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-13 {
+  stroke: #FFF;
+}
+
+#HINT {
+  width: 80%;
+  margin: auto;
+}
+
+#HINTB {
+  width: 50%;
+  margin: auto;
+}
+
+#HINTC {
+  width: 70%;
+  margin: auto;
+  margin-top: -1%;
+}
+
+.fact {
+  text-align: center;
+  height: 80vh;
+  margin-top: 5%;
+}
+
+#next1 {
+  width: 60%;
+  height: auto;
+  margin-top: -45%;
+  z-index: 100;
+}
+
+#war {
+  padding-top: 5%;
+}
+
+.buttons {
+  width: 80%;
+  float: right;
+}
+
+/* Transizione */
+
+.animate-in {
+    -webkit-animation: fadeIn .5s ease-in;
+    animation: fadeIn .5s ease-in;
+}
+
+.animate-out {
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+    opacity: 0;
+}
+
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
