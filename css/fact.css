@@ -55,8 +55,9 @@ body, html {
 }
 
 #warning {
-    background-color: var(--red);
+  background-color: var(--red);
 }
+
 a:hover {
   color: black;
 }
@@ -103,21 +104,19 @@ a:hover {
 }
 
 @font-face {
-    font-family: 'bandeins_strangeSBdExfull';
-    src: url('../css/fonts/bandeinsstrangesemiboldextendedfull-webfont.woff2') format('woff2'),
-         url('../css/fonts/bandeinsstrangesemiboldextendedfull-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'bandeins_strangeSBdExfull';
+  src: url('../css/fonts/bandeinsstrangesemiboldextendedfull-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangesemiboldextendedfull-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'bandeins_strangeBdExfull';
-    src: url('../css/fonts/bandeinsstrangeboldextendedfull-webfont.woff2') format('woff2'),
-         url('../css/fonts/bandeinsstrangeboldextendedfull-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'bandeins_strangeBdExfull';
+  src: url('../css/fonts/bandeinsstrangeboldextendedfull-webfont.woff2') format('woff2'),
+    url('../css/fonts/bandeinsstrangeboldextendedfull-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .db-r {
@@ -218,45 +217,87 @@ a:hover {
 
 .fact {
   text-align: center;
-  height: 80vh;
   margin-top: 5%;
+  height: 70vh;
 }
 
 #next1 {
-  width: 60%;
+  width: 1%;
   height: auto;
-  margin-top: -45%;
-  z-index: 100;
 }
 
 #war {
   padding-top: 5%;
 }
 
+.nextb {
+  height: 20vh;
+}
+
 .buttons {
-  width: 80%;
+  width: 90%;
   float: right;
 }
 
 /* Transizione */
-
 .animate-in {
-    -webkit-animation: fadeIn .5s ease-in;
-    animation: fadeIn .5s ease-in;
+  -webkit-animation: fadeIn .5s ease-in;
+  animation: fadeIn .5s ease-in;
 }
 
 .animate-out {
-    -webkit-transition: opacity .5s;
-    transition: opacity .5s;
-    opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+  opacity: 0;
 }
 
 @-webkit-keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 3840px) {
+  .db-r {
+    font-family: var(--font-var);
+    font-size: 4.5rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    color: black;
+  }
+
+  .db-w {
+    font-family: var(--font-var);
+    font-size: 4.5rem;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    color: #FFF;
+  }
+
+  #next1 {
+    width: 63%;
+    height: auto;
+    float: right;
+    margin-top: 5rem;
+    margin-right: 4rem;
+  }
+
+  .nav {
+    display: block;
+    vertical-align: bottom;
+  }
 }

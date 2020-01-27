@@ -354,3 +354,158 @@ a:hover {
     from { opacity: 0; }
     to { opacity: 1; }
 }
+
+/*MEDIAQUERY*/
+@media only screen and (min-width: 3840px) {
+  .marquee {
+    margin: 1.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0;
+    vertical-align: middle;
+  }
+
+  .marquee span {
+    margin: auto;
+    display: inline-block;
+    padding-left: 0% !important;
+    animation: marquee 5s linear infinite;
+    font-family: var(--font-light);
+    font-size: 5rem;
+  }
+
+  .rect {
+    text-align: center;
+    background-color: var(--violet);
+    border: 0.4rem solid black !important;
+    margin: 0;
+    height: 8vh;
+  }
+
+.boldd {
+  font-family: bandeins_strangemedium;
+}
+
+  .table {
+    margin-bottom: 0;
+    height: 100vh;
+  }
+
+  .table th {
+    vertical-align: middle;
+    padding: 0;
+    border: 0.4rem solid black;
+  }
+
+  .table td {
+    border: 0.4rem solid black;
+  }
+
+  .primariga {
+    border-bottom: 0.3rem solid black;
+    height: 10vh;
+  }
+
+  .clessidra {
+    background-color: var(--yellow);
+    border: 0.4rem solid black;
+    width: 9vh;
+    text-align: center;
+  }
+
+  .numero {
+    background-color: var(--yellow);
+    width: 10vh;
+    border: 0.4rem solid black;
+    text-align: right;
+  }
+
+  .rettangolo-segnaposto {
+    margin: 8rem 0.8rem;
+    width: 4vh;
+    height: 70%;
+    /* border-radius: 40px; */
+    border: 0px solid black;
+    background: none;
+  }
+
+  .rettangolo-bianco {
+    margin: 11rem 0.8rem;
+    width: 4vh;
+    height: 75vh;
+    /* border-radius: 40px; */
+    border: 0px solid black;
+    background: white;
+    position: absolute;
+    top: 13%;
+    left: 1%;
+    z-index: 0;
+  }
+
+  .rettangolo-rosso {
+    margin: 11rem 0.8rem;
+    width: 4vh;
+    height: 75vh;
+    background: var(--green);
+    position: absolute;
+    top: 13%;
+    z-index: 1;
+  }
+
+  .rettangolo-border {
+    margin: 11rem 0.8rem;
+    width: 4vh;
+    height: 75vh;
+    border: 0.4rem solid black;
+    background: none;
+    position: absolute;
+    top: 13%;
+    left: 1%;
+    z-index: 4;
+  }
+
+  #imgcles {
+    width: 3vh;
+    height: auto;
+  }
+
+  .titoloriga {
+    font-size: 5rem;
+    font-family: var(--font-light);
+    margin-bottom: 0;
+    margin-left: 3rem;
+  }
+
+  .tempo {
+    background-color: var(--yellow);
+    border: 0.4rem solid black;
+    border-right: 0.4rem solid black;
+    text-align: center;
+  }
+
+  .giustosbagliato {
+    border: 0.4rem solid black;
+    border-right: 0.4rem solid black;
+    text-align: center;
+  }
+
+  #prog {
+    width: 37%;
+    vertical-align: middle;
+  }
+
+  #Q1 {
+    width: 80%;
+  }
+
+  .numerotest {
+    text-align: left;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  #NUMERI {
+    width: 100%;
+  }
+}
