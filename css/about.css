@@ -103,10 +103,6 @@ footer .container-fluid {
 
 /* home page */
 
-.logobar {
-  height: 80px;
-}
-
 .nav {
   height: 9vh;
   background-color: var(--violet);
@@ -122,16 +118,6 @@ footer .container-fluid {
   margin: 0;
 }
 
-a:hover.sottolineatura {
-  text-decoration: none;
-}
-
-.title2 {
-  font-family: var(--font-var);
-  color: black;
-  font-size: 2rem;
-}
-
 .title3 {
   font-family: var(--font-semibold);
   color: black;
@@ -141,13 +127,6 @@ a:hover.sottolineatura {
 .logo {
   height: 80px;
   padding: 2vh 0 0 2rem;
-  margin: 0;
-}
-
-.page {
-  height: 80px;
-  padding: 1rem 2rem 0 0;
-  text-align: right;
   margin: 0;
 }
 
@@ -163,32 +142,15 @@ a:hover.sottolineatura {
   z-index: 10;
 }
 
-.text1 {
-  margin: 5.5rem 0 0 0;
-  padding: 0;
-  font-family: var(--font-light);
-  font-size: 3rem;
-  line-height: 3.5rem;
-  color: white;
-}
-
-.text2 {
-  margin: 5.5rem 0 0 0;
-  padding: 0;
-  font-family: var(--font-light);
-  font-size: 3rem;
-  line-height: 3.5rem;
-  color: black;
-}
-
 .anchor {
   padding: 0;
-  margin: auto;
+  margin: 3vh 0 0 4rem;
+  text-align: center;
 }
 
 .box {
   padding: 0;
-  margin: auto;
+  margin: 3.5vh 0 0 0;
   width: 180px;
   height: 84vh;
   overflow-y: scroll;
@@ -199,7 +161,7 @@ a:hover.sottolineatura {
   font-family: var(--font-regular);
   font-size: 1.7rem;
   line-height: 2.2rem;
-  padding: 0 8rem 0 6rem;
+  padding: 0 8rem 0 8rem;
 
 }
 
@@ -207,14 +169,14 @@ a:hover.sottolineatura {
   font-family: var(--font-regular);
   font-size: 1.4rem;
   line-height: 1.9rem;
-  padding: 3rem 6rem 0 6rem;
+  padding: 3rem 6rem 0 8rem;
 }
 
 .cit {
   font-family: var(--font-regular);
   font-size: 1.4rem;
   line-height: 1.9rem;
-  padding: 0 10rem 0 10rem;
+  padding: 0 12rem 0 12rem;
 
 }
 
@@ -228,19 +190,19 @@ a:hover.sottolineatura {
 
 .card-title {
   font-family: var(--font-semibold);
-  padding: 6rem 0 0 6rem;
+  padding: 6rem 0 0 8rem;
   margin: 0;
 }
 
 .subtitle {
   font-family: var(--font-semibold);
-  padding: 0 0 2rem 6rem;
+  padding: 0 0 2rem 8rem;
   margin: 0;
 }
 
 .subtitlemiddle {
   font-family: var(--font-semibold);
-  padding: 2rem 0 2rem 6rem;
+  padding: 2rem 0 2rem 8rem;
 }
 
 .card-header {
@@ -266,7 +228,7 @@ a:hover.sottolineatura {
 }
 
 .card-body img.topic {
-  margin: 2rem 0 3rem 18rem;
+  margin: 2rem 0 3rem 17rem;
   width: 30%;
 }
 
@@ -309,7 +271,9 @@ a:hover.sottolineatura {
 ::-webkit-scrollbar {
     width: 50px;
     background-color: var(--white);
+    border-bottom: 1px solid black;
 }
+
 ::-webkit-scrollbar-thumb {
     height: 4px;
     border: 3px solid white;
@@ -332,24 +296,258 @@ a:hover.sottolineatura {
 }
 
 #Anchor1 {
-  width: 75%;
+  width: 65%;
   margin: 0 0 2vh 0;
   cursor: pointer;
 }
 
 #Anchor2 {
-  width: 75%;
+  width: 65%;
   margin: 0 0 2vh 0;
   cursor: pointer;
 }
 
 #Anchor3 {
-  width: 75%;
+  width: 65%;
   margin: 0 0 2vh 0;
   cursor: pointer;
 }
 
 #Anchor4 {
-  width: 75%;
+  width: 65%;
   cursor: pointer;
+}
+
+/* Query schermo touch */
+
+@media screen and (min-width: 3840px) {
+
+  .body1 {
+    min-height: 100%;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: var(--blue);
+    position: relative;
+  }
+
+  .nav {
+    height: 9vh;
+    background-color: var(--violet);
+    border-bottom: 5px solid black;
+    z-index: 100;
+    position: relative;
+  }
+
+  .logo {
+    height: 9vh;
+    padding: 2vh 0 0 4rem;
+    margin: 0;
+  }
+
+  .whatsbehind {
+    height: 9vh;
+    padding: 2vh 4rem 0 0;
+    text-align: right;
+    margin: 0;
+    background-color: var(--white);
+    color: var(--black);
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    z-index: 10;
+  }
+
+  .title1 {
+    font-family: var(--font-var);
+    color: white;
+    font-size: 4.5rem;
+    margin: 0;
+  }
+
+  .title3 {
+    font-family: var(--font-semibold);
+    color: black;
+    font-size: 4.5rem;
+  }
+
+  .anchor {
+    padding: 4.5vh 0 3vh 0;
+    margin: 0 0 0 10rem;
+    text-align: center;
+  }
+
+  .box {
+    padding-right: 0;
+    margin-top: 5vh;
+    margin-left: 0;
+    width: 180px;
+    height: 81vh;
+    overflow-y: scroll;
+    border: 5px solid black;
+  }
+
+  .card-text {
+    font-family: var(--font-regular);
+    font-size: 4rem;
+    line-height: 5rem;
+    padding: 0 25rem 0 20rem;
+
+  }
+
+  .card-text.names {
+    font-family: var(--font-regular);
+    font-size: 3.2rem;
+    line-height: 4rem;
+    padding: 12rem 25rem 0 20rem;
+  }
+
+  .cit {
+    font-family: var(--font-regular);
+    font-size: 3.2rem;
+    line-height: 4rem;
+    padding: 0 40rem 0 30rem;
+
+  }
+
+  .dida {
+    font-family: var(--font-regular);
+    font-size: 2.3rem;
+    line-height: 2.5rem;
+    padding: 0 1rem 0 0;
+
+  }
+
+  .card-title {
+    font-family: var(--font-semibold);
+    padding: 6rem 0 0 20rem;
+    margin: 0;
+    font-size: 6rem;
+  }
+
+  .subtitle {
+    font-family: var(--font-semibold);
+    padding: 0 0 4rem 20rem;
+    margin: 0;
+    font-size: 5rem;
+  }
+
+  .subtitlemiddle {
+    font-family: var(--font-semibold);
+    padding: 4rem 0 4rem 20rem;
+    font-size: 5rem;
+  }
+
+  .card-header {
+    border-radius: 0px !important;
+    font-size: 3rem;
+    padding-left: 4rem;
+    font-family: var(--font-semibold);
+    background-color: var(--pink);
+    border-bottom: 5px solid black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+  }
+
+  .card-body {
+    background-color: var(--white);
+    border-radius: 0px;
+  }
+
+  .card-body img {
+    margin: 2rem 0 6rem 12rem;
+    width: 80%;
+  }
+
+  .card-body img.topic {
+    margin: 4rem 0 6rem 38rem;
+    width: 35%;
+  }
+
+  .card-body img.topicsmall {
+    margin: 4rem 0 7rem 30rem;
+    width: 45%;
+  }
+
+  .card-body img.topicbig {
+    margin: 4rem 0 4rem 25rem;
+    width: 55%;
+  }
+
+  .card-body img.infografica {
+    margin: 4rem 0 2rem 0;
+    width: 100%;
+  }
+
+  .card-body img.dorian {
+    margin: 4rem 0 2rem 0;
+    width: 100%;
+  }
+
+  .card-body a {
+    font-family: var(--font-regular);
+    color: var(--violet);
+    text-decoration: none;
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  .card-body a:hover {
+    font-family: var(--font-regular);
+    color: var(--violet);
+    text-decoration: underline;
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  ::-webkit-scrollbar {
+      width: 5rem;
+      background-color: var(--white);
+  }
+
+  ::-webkit-scrollbar-thumb {
+      height: 4px;
+      border: 3px solid white;
+      background-clip: padding-box;
+      -webkit-border-radius: 40px;
+      background-color: var(--yellow);
+      -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05), inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+  }
+
+  ::-webkit-scrollbar-button:vertical:start:decrement {
+    display: block;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    background-color: var(--pink);
+    height: 6.35rem;
+    background-image: url(../assets/Freccina.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+  }
+
+  #Anchor1 {
+    width: 65%;
+    margin: 0 0 2vh 0;
+    cursor: pointer;
+  }
+
+  #Anchor2 {
+    width: 65%;
+    margin: 0 0 2vh 0;
+    cursor: pointer;
+  }
+
+  #Anchor3 {
+    width: 65%;
+    margin: 0 0 2vh 0;
+    cursor: pointer;
+  }
+
+  #Anchor4 {
+    width: 65%;
+    cursor: pointer;
+  }
+
 }
