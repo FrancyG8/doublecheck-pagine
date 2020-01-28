@@ -13,14 +13,10 @@ function draw() {
   var check = url.searchParams.get("q1")
 
   if (frameCount >= 150 && check == "0") {
-    tempoScaduto();
+    window.open('../fact/fact1w.html?q1=0', '_self');
   }
 }
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
-}
-
-function tempoScaduto(){
-  window.open('../fact/fact1w.html?q1=0', '_self');
 }

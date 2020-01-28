@@ -8,10 +8,8 @@ function draw() {
 
   var check = url.searchParams.get("q1")
 
-  if (check == "0") {
-    nextb.mousePressed = function() {
+  nextb.mousePressed = function() {
       window.open('../q/q2.html?q1=0', '_self');
-    }
   }
 }
 
