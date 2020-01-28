@@ -1,4 +1,5 @@
 let fr = 50;
+var sbagliato = "0";
 
 function preload() {}
 
@@ -17,7 +18,7 @@ function windowResized() {
 }
 
 function tempoScaduto(){
-  window.open('../right-wrong/timeisup2.html?q2=', '_self');
+  window.open('../right-wrong/timeisup2.html?q2=' + sbagliato, '_self');
 }
 
 var url_string = window.location.href;
