@@ -7,7 +7,12 @@ function setup() {
 }
 
 function draw() {
-  if(frameCount >= 150){
+  var url_string = window.location.href;
+  var url = new URL(url_string);
+
+  var check = url.searchParams.get("q1")
+
+  if (frameCount >= 150 && check == "0") {
     tempoScaduto();
   }
 }
@@ -16,14 +21,6 @@ function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
 
-// function rispostaSbagliata(){
-//   window.open('../right-wrong/wrong1.html', '_self');
-// }
-//
-// function rispostaGiusta(){
-//   window.open('../right-wrong/right1.html', '_self');
-// }
-
 function tempoScaduto(){
-  window.open('../fact/fact1w.html', '_self');
+  window.open('../fact/fact1w.html?q1=0', '_self');
 }

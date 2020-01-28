@@ -1,4 +1,5 @@
-let fr = 60; //--3000 frames erano necessari con la connessione del Poli
+let fr = 50;
+var sbagliato = "0";
 
 function preload() {}
 
@@ -7,7 +8,7 @@ function setup() {
 }
 
 function draw() {
-  if(frameCount >= 3600){ //--Davvero il framerate è legato alla connessione?!
+  if(frameCount >= 3000){
     tempoScaduto();
   }
 }
@@ -17,7 +18,7 @@ function windowResized() {
 }
 
 function tempoScaduto(){
-  window.open('../right-wrong/timeisup1.html', '_self');
+  window.open('../right-wrong/timeisup1.html?q1=' + sbagliato, '_self');
 }
 
 var url_string = window.location.href;

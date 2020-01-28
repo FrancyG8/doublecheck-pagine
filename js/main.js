@@ -69,29 +69,16 @@ $(document).ready(function() {
 //--CLICK FUNCTION
   var giusto = "1";
   var sbagliato = "0";
-  var tempofinito = "0";
 
   //--Question 1
-  //delay nel time over
-  $('#results').hide();
-  $('#lightbox').hide();
-  setTimeout(function() {
-    $('#results').fadeIn();
-  } , 6000);
-  setTimeout(function() {
-      $('#overlay').fadeOut();
-  }, 9000);
-  // $('.detrump').click(function() {
-  // $('.trump').fadeOut();
-  // });
   //comandi dei tasti
   $('#RIGHT01').click(function() {
     window.open('../right-wrong/right1.html?q1=' + giusto, '_self');
-
   });
   $('#WRONG01').click(function() {
     window.open('../right-wrong/wrong1.html?q1=' + sbagliato, '_self');
   });
+
 
   //--Question 2
   $('#RIGHT02').click(function() {
