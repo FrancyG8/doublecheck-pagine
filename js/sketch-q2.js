@@ -26,6 +26,11 @@ var url = new URL(url_string);
 
 var check = url.searchParams.get("q1")
 
-if ( check == "" ) {
-  console.log("è giusto!!!")
+var pallino1 = document.getElementById("domanda1");
+if ( check == "1" ) {
+  console.log('ok');
+  pallino1.style('color', '#ffffff');
+} else if ( check == "0") {
+  console.log('no');
+  pallino1.style('color', '#000000');
 }
