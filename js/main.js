@@ -79,7 +79,6 @@ $(document).ready(function() {
     window.open('../right-wrong/wrong1.html?q1=' + sbagliato, '_self');
   });
 
-
   //--Question 2
   $('#RIGHT02').click(function() {
     window.open('../right-wrong/right2.html', '_self');

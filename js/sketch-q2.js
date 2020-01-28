@@ -24,8 +24,8 @@ function tempoScaduto(){
 var url_string = window.location.href;
 var url = new URL(url_string);
 
-var check = url.searchParams.get("dummy")
+var check = url.searchParams.get("q1")
 
-if ( check == "test" ) {
+if ( check == "" ) {
   console.log("è giusto!!!")
 }
