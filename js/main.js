@@ -71,7 +71,6 @@ $(document).ready(function() {
   var sbagliato = "0";
 
   //--Question 1
-  //comandi dei tasti
   $('#RIGHT01').click(function() {
     window.open('../right-wrong/right1.html?q1=' + giusto, '_self');
   });
@@ -81,10 +80,10 @@ $(document).ready(function() {
 
   //--Question 2
   $('#RIGHT02').click(function() {
-    window.open('../right-wrong/right2.html', '_self');
+    window.open('../right-wrong/right2.html?q2=' + giusto, '_self');
   });
   $('#WRONG02').click(function() {
-    window.open('../right-wrong/wrong2.html', '_self');
+    window.open('../right-wrong/wrong2.html?q2='+ sbagliato, '_self');
   });
   var tempo = gsap.timeline(); //--Rettangolo che pulsa nel fact
   tempo.to("#ZOOMhint2", {duration: 0.5, delay: 0.5, opacity: 0});
