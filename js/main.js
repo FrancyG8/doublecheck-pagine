@@ -244,4 +244,10 @@ $(document).ready(function() {
   tempo.to("#ZOOMhint12", {duration: 0.5, delay: 0.5, opacity: 0}, "<");
   tempo.to("#ZOOMhint12", {duration: 0.5, delay: 0.5, opacity: 1}, "<");
 
+  //--Animazione
+  $('#testuale').hide();
+  setTimeout(function(){
+    $('#testuale').fadeIn();
+  }, 3000);
+
 });
