@@ -16,6 +16,7 @@
   --font-semibold: bandeins_strangesemi_bold;
   --font-var: bandeins_strangeSBdExfull;
   --font-varbold: bandeins_strangeBdExfull;
+  --font-varhalf: bandeins_strangeBdExhalf;
 }
 
 /* Font Faces */
@@ -72,6 +73,15 @@
     font-family: 'bandeins_strangeBdExfull';
     src: url('../css/fonts/bandeinsstrangeboldextendedfull-webfont.woff2') format('woff2'),
          url('../css/fonts/bandeinsstrangeboldextendedfull-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bandeins_strangeBdExhalf';
+    src: url('../css/fonts/bandeinsstrangeboldextendedhalf-webfont.woff2') format('woff2'),
+         url('../css/fonts/bandeinsstrangeboldextendedhalf-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -552,6 +562,10 @@ a:hover.sottolineatura {
   left: 25%;
   font-size: 1.5rem;
   font-family: var(--font-medium);
+}
+
+.next a:hover  {
+  text-decoration: none;
 }
 
 .resultw {

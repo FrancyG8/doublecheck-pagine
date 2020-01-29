@@ -16,6 +16,7 @@
   --font-semibold: bandeins_strangesemi_bold;
   --font-var: bandeins_strangeSBdExfull;
   --font-varbold: bandeins_strangeBdExfull;
+  --font-varhalf: bandeins_strangeBdExhalf;
 }
 
 p {
@@ -129,6 +130,15 @@ a:hover {
     url('../css/fonts/bandeinsstrangeboldextendedfull-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+    font-family: 'bandeins_strangeBdExhalf';
+    src: url('bandeinsstrangeboldextendedhalf-webfont.woff2') format('woff2'),
+         url('bandeinsstrangeboldextendedhalf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 .db-r {
@@ -466,6 +476,14 @@ a:hover {
 
 .cls-52 {
   letter-spacing: -0.00701em;
+}
+
+.cls-100 {
+  font-family: bandeinsstrangelight;
+}
+
+.cls-101{
+  font-family: bandeins_strangebold;
 }
 
 #HINT {
