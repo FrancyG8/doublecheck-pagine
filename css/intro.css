@@ -515,6 +515,74 @@ a:hover.sottolineatura {
     to { opacity: 1; }
 }
 
+
+.result {
+  background-color: var(--yellow);
+  border: 0.1rem solid black;
+  position: absolute;
+  top: 15%;
+  z-index: 999;
+  padding: 1rem 4rem;
+  left: 1%;
+  font-size: 3rem;
+  font-family: var(--font-medium);
+}
+
+.res {
+  margin: 0;
+}
+
+.resultext {
+  background-color: var(--yellow);
+  border: 0.1rem solid black;
+  position: absolute;
+  top: 35%;
+  z-index: 999;
+  padding: 1rem 4rem;
+  left: 1%;
+  font-size: 1.5rem;
+  font-family: var(--font-medium);
+}
+
+.share {
+  position: absolute;
+  top: 80%;
+  z-index: 999;
+  padding: 1rem 4rem;
+  left: 25%;
+  font-size: 1.5rem;
+  font-family: var(--font-medium);
+}
+
+.resultw {
+  background-color: white;
+  border: 0.1rem solid black;
+  position: absolute;
+  top: 15%;
+  z-index: 999;
+  padding: 1rem 4rem;
+  left: 1%;
+  font-size: 3rem;
+  font-family: var(--font-medium);
+}
+
+.resw {
+  margin: 0;
+}
+
+.resultextw {
+  background-color: white;
+  border: 0.1rem solid black;
+  position: absolute;
+  top: 35%;
+  z-index: 999;
+  padding: 1rem 4rem;
+  left: 1%;
+  font-size: 1.5rem;
+  font-family: var(--font-medium);
+}
+
+/* media query */
 @media screen and (min-width: 3840px) {
 
   .logobar {
@@ -850,4 +918,69 @@ a:hover.sottolineatura {
     animation: float 1.5s ease-in-out infinite;
   }
 
+  .result {
+    background-color: var(--yellow);
+    border: 0.4rem solid black;
+    position: absolute;
+    top: 20%;
+    z-index: 999;
+    padding: 1rem 4rem;
+    left: 1%;
+    font-size: 10rem;
+    font-family: var(--font-medium);
+  }
+
+  .res {
+    margin: 0;
+  }
+
+  .resultext {
+    background-color: var(--yellow);
+    border: 0.4rem solid black;
+    position: absolute;
+    top: 35%;
+    z-index: 999;
+    padding: 1rem 4rem;
+    left: 1%;
+    font-size: 5rem;
+    font-family: var(--font-medium);
+  }
+
+  .share {
+    position: absolute;
+    top: 80%;
+    z-index: 999;
+    padding: 1rem 4rem;
+    left: 25%;
+    font-size: 1.5rem;
+    font-family: var(--font-medium);
+  }
+
+  .resultw {
+    background-color: white;
+    border: 0.4rem solid black;
+    position: absolute;
+    top: 20%;
+    z-index: 999;
+    padding: 1rem 4rem;
+    left: 1%;
+    font-size: 10rem;
+    font-family: var(--font-medium);
+  }
+
+  .resw {
+    margin: 0;
+  }
+
+  .resultextw {
+    background-color: white;
+    border: 0.4rem solid black;
+    position: absolute;
+    top: 35%;
+    z-index: 999;
+    padding: 1rem 4rem;
+    left: 1%;
+    font-size:5rem;
+    font-family: var(--font-medium);
+  }
 }
