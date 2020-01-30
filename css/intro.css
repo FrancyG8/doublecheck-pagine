@@ -18,6 +18,24 @@
   --font-varbold: bandeins_strangeBdExfull;
   --font-varhalf: bandeins_strangeBdExhalf;
 }
+/* loader */
+.bodyl {
+  background-color: #fff;
+  margin: 0px;
+  height: 100%;
+  overflow: hidden;
+}
+
+#lottie {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+}
 
 /* Font Faces */
 @font-face {
@@ -217,6 +235,14 @@ a:hover.sottolineatura {
   font-family: var(--font-semibold);
   color: black;
   font-size: 1.8rem;
+}
+
+
+.nb {
+  font-family: var(--font-regular);
+  color: black;
+  font-size: 2.5rem;
+  line-height: normal;
 }
 
 .logo {
@@ -936,7 +962,7 @@ a:hover.sottolineatura {
     background-color: var(--yellow);
     border: 0.4rem solid black;
     position: absolute;
-    top: 20%;
+    top: 15%;
     z-index: 999;
     padding: 1rem 4rem;
     left: 1%;
@@ -952,11 +978,11 @@ a:hover.sottolineatura {
     background-color: var(--yellow);
     border: 0.4rem solid black;
     position: absolute;
-    top: 35%;
+    top: 30%;
     z-index: 999;
     padding: 1rem 4rem;
     left: 1%;
-    font-size: 5rem;
+    font-size: 4.78rem;
     font-family: var(--font-medium);
   }
 
@@ -974,7 +1000,7 @@ a:hover.sottolineatura {
     background-color: white;
     border: 0.4rem solid black;
     position: absolute;
-    top: 20%;
+    top: 15%;
     z-index: 999;
     padding: 1rem 4rem;
     left: 1%;
@@ -990,11 +1016,46 @@ a:hover.sottolineatura {
     background-color: white;
     border: 0.4rem solid black;
     position: absolute;
-    top: 35%;
+    top: 30%;
     z-index: 999;
     padding: 1rem 4rem;
     left: 1%;
-    font-size:5rem;
+    font-size:4.8rem;
     font-family: var(--font-medium);
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .mobile {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2000;
+    background-color: var(--yellow);
+
+  }
+
+  .titlemobile {
+    font-family: var(--font-var);
+    color: black;
+    font-size: 3rem;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2rem;
+  }
+
+  .subtitlemobile {
+    font-family: var(--font-semibold);
+    color: black;
+    font-size: 1.5rem;
+    margin: auto;
+    text-align: center;
+  }
+  .mobilep {
+    font-family: var(--font-regular);
+  text-align: center;
+  margin: 2rem 1rem;
+  font-size: 1.3rem;
+
   }
 }

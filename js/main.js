@@ -1,3 +1,8 @@
+$(window).on("load",function(){
+     $(".loader").fadeOut("slow");
+});
+
+
 $(document).ready(function() {
 
 
@@ -249,5 +254,6 @@ $(document).ready(function() {
   setTimeout(function(){
     $('#testuale').fadeIn();
   }, 3000);
+
 
 });
