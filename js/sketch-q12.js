@@ -1,4 +1,4 @@
-let fr = 60;
+let fr = 50;
 
 function preload() {}
 
@@ -7,23 +7,29 @@ function setup() {
 }
 
 function draw() {
-  if(frameCount >= 3600){
+  if (frameCount >= 3000) {
     tempoScaduto();
   }
 }
+
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
 
-// function rispostaSbagliata(){
-//   window.open('../right-wrong/wrong1.html', '_self');
-// }
-//
-// function rispostaGiusta(){
-//   window.open('../right-wrong/right1.html', '_self');
-// }
+function tempoScaduto() {
+  var risul11 = parseInt(check11, 10);
+  let sbagliato12 = risul11 + 0;
+  window.open('../right-wrong/timeisup4.html?q12=' + sbagliato12, '_self');
+}
 
-function tempoScaduto(){
-  window.open('../right-wrong/timeisup12.html', '_self');
+var url_string = window.location.href;
+var url = new URL(url_string);
+
+var check11 = url.searchParams.get("q11");
+
+if (check11 == 11) {
+  console.log('ok');
+} else if (check2 < 11) {
+  console.log('no');
 }

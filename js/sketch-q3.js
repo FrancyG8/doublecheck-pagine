@@ -1,7 +1,4 @@
 let fr = 50;
-var giusto = 1;
-var sbagliato = 0;
-let risp2;
 
 function preload() {}
 
@@ -31,7 +28,7 @@ var url = new URL(url_string);
 
 var check2 = url.searchParams.get("q2");
 
-if (check2 = 2) {
+if (check2 == 2) {
   console.log('ok');
 } else if (check2 < 2) {
   console.log('no');

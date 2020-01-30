@@ -1,7 +1,4 @@
 let fr = 50;
-var giusto = 1;
-var sbagliato = 0;
-let risp2;
 
 function preload() {}
 

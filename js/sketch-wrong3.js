@@ -7,8 +7,8 @@ function setup() {
 }
 
 function draw() {
-  if(frameCount >= 150){
-    tempoScaduto();
+  if (frameCount >= 150) {
+    window.open('../fact/fact3w.html?q3=' + check3, '_self');
   }
 }
 
@@ -16,14 +16,9 @@ function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
 
-// function rispostaSbagliata(){
-//   window.open('../right-wrong/wrong1.html', '_self');
-// }
-//
-// function rispostaGiusta(){
-//   window.open('../right-wrong/right1.html', '_self');
-// }
+var url_string = window.location.href;
+var url = new URL(url_string);
 
-function tempoScaduto(){
-  window.open('../fact/fact3w.html', '_self');
-}
+var check3 = url.searchParams.get("q3")
+
+console.log(check3);
