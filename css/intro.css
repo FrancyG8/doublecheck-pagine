@@ -1058,4 +1058,28 @@ a:hover.sottolineatura {
   font-size: 1.3rem;
 
   }
+.navv {
+background-color: var(--violet);
+border-bottom: 3px solid black;
+vertical-align: middle;
+}
+.navd {
+  text-align: center;
+}
+  .navti {
+    font-family: var(--font-var);
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    vertical-align: middle;
+  }
+
+  .gifres {
+    width: 60%;
+    margin: auto;
+  }
+
+  .gifdiv {
+    text-align: center;
+  }
 }

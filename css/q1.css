@@ -1,5 +1,7 @@
 /* main */
 :root {
+  --black: #000000;
+  --white: #ffffff;
   --yellow: #FFCC00;
   --red: #FF0000;
   --pink: #FF99CC;
@@ -11,6 +13,10 @@
   --font-regular: bandeins_strangeregular;
   --font-bold: bandeins_strangebold;
   --font-medium: bandeins_strangemedium;
+  --font-semibold: bandeins_strangesemi_bold;
+  --font-var: bandeins_strangeSBdExfull;
+  --font-varbold: bandeins_strangeBdExfull;
+  --font-varhalf: bandeins_strangeBdExhalf;
 }
 
 p {
@@ -83,6 +89,16 @@ a:hover {
     url('../css/fonts/bandeinsstrangemedium-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'bandeins_strangeBdExhalf';
+    src: url('bandeinsstrangeboldextendedhalf-webfont.woff2') format('woff2'),
+         url('bandeinsstrangeboldextendedhalf-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 /* ticker - testo muove */
@@ -159,17 +175,6 @@ a:hover {
   color: white;
 }
 
-/* Make it move */
-@keyframes marquee {
-  10% {
-    transform: translate(100, 0);
-  }
-
-  100% {
-    transform: translate(-100%, 0);
-  }
-}
-
 /* elementi principali */
 .table {
   margin-bottom: 0;
@@ -210,6 +215,32 @@ a:hover {
   font-family: var(--font-light);
   margin-bottom: 0;
   margin-left: 1rem;
+}
+
+.gradiente {
+    color: black;
+     -webkit-animation-name: gradiente;
+     -webkit-animation-duration: 1s;
+     animation-name: gradiente;
+     animation-duration: 1s;
+     animation-iteration-count: 3;
+   }
+   /* Safari 4.0 - 8.0 */
+   @-webkit-keyframes gradiente {
+     0%   {color: black;}
+     50%  {color: var(--yellow);}
+     100% {color: #000000;}
+   }
+   /* Standard syntax */
+   @keyframes gradiente {
+     0%   {color: black;}
+     50%  {color: var(--yellow);}
+     100% {color: #000000;}
+   }
+
+.underline3 {
+  color: var(--black);
+  text-decoration: underline;
 }
 
 .title {
@@ -312,7 +343,7 @@ a:hover {
   width: 80%;
 }
 
-#prog {
+.prog {
   width: 50%;
   vertical-align: middle;
 }
@@ -372,7 +403,7 @@ a:hover {
 .cls-13,
 .cls-14 {
   font-size: 25px;
-  font-family: BandeinsStrangeSemiBold, Bandeins Strange;
+  font-family: var(--font-semibold);
 }
 
 .cls-10 {
@@ -545,7 +576,7 @@ a:hover {
     text-align: center;
   }
 
-  #prog {
+  .prog {
     width: 37%;
     vertical-align: middle;
   }
