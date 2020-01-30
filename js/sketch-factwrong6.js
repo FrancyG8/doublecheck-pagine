@@ -6,7 +6,7 @@ function draw() {}
 
 function mouseClicked() {
   var next = document.getElementById('next1');
-  window.open('../q/q3.html?q2=' + check2, '_self');
+  window.open('../q/q7.html?q6=' + check6, '_self');
 }
 
 function windowResized() {
@@ -16,5 +16,5 @@ function windowResized() {
 var url_string = window.location.href;
 var url = new URL(url_string);
 
-var check2 = url.searchParams.get("q2");
-console.log(check2);
+var check6 = url.searchParams.get("q6");
+console.log(check6);

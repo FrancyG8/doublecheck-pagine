@@ -218,6 +218,8 @@ $(document).ready(function() {
     window.open('../right-wrong/wrong7.html?q7=' + sbagliato7, '_self');
   });
 
+  //--Warning
+
   //--Question 8
   $('#RIGHT08').click(function() {
     var risul7 = parseInt(check7, 10);
@@ -251,7 +253,7 @@ $(document).ready(function() {
   $('#WRONG10').click(function() {
     var risul9 = parseInt(check9, 10);
     let sbagliato10 = risul9 + 0;
-    window.open('../right-wrong/wrong10.html?q10=' + giusto10, '_self');
+    window.open('../right-wrong/wrong10.html?q10=' + sbagliato10, '_self');
   });
 
   //--Question 11
