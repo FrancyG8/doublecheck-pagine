@@ -1,5 +1,5 @@
 let fr = 50;
-var sbagliato = "0";
+var sbagliato = 0;
 
 function preload() {}
 

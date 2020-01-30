@@ -1,3 +1,6 @@
+var giusto = 1;
+var sbagliato = 0;
+
 function preload() {}
 
 function setup() {}
@@ -10,7 +13,7 @@ function mouseClicked() {
 
   var check = url.searchParams.get("q1");
   var next = document.getElementById('next1');
-  window.open('../q/q2.html?q1=1', '_self');
+  window.open('../q/q2.html?q1=' + giusto, '_self');
 }
 
 function windowResized() {

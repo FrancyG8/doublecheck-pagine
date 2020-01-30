@@ -1,3 +1,6 @@
+var giusto = 1;
+var sbagliato = 0;
+
 let fr = 60;
 
 function preload() {}
@@ -12,8 +15,8 @@ function draw() {
 
   var check = url.searchParams.get("q1")
 
-  if (frameCount >= 150 && check == "1") {
-    window.open('../fact/fact1r.html?q1=1', '_self');
+  if (frameCount >= 150 && check == 1) {
+    window.open('../fact/fact1r.html?q1=' + giusto, '_self');
   }
 }
 
