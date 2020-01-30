@@ -598,3 +598,46 @@ a:hover {
     bottom: -1%;
   }
 }
+
+/* tablet */
+@media only screen and (max-width: 1024px) {
+
+  #next1 {
+    width: 100%;
+    margin-right: 1rem;
+    float: right;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    margin-right: 4rem;
+  }
+
+  #HINT {
+    width: 80%;
+    margin: 3rem auto;
+  }
+
+  #HINTB {
+    width: 60%;
+    margin: 3rem auto;
+  }
+
+  #HINTC {
+    width: 80%;
+    margin:  4rem auto;
+  }
+
+  #war {
+    padding-top: 20%;
+  }
+
+
+  .buttons {
+    width: 30%;
+    float: right;
+    position: fixed;
+    left: 68%;
+    top: 90%;
+  }
+
+
+}

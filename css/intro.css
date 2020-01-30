@@ -699,6 +699,13 @@ a:hover.sottolineatura {
     color: black;
   }
 
+  .nb {
+    font-family: var(--font-regular);
+    color: black;
+    font-size: 7rem;
+    line-height: normal;
+  }
+
   .underline1 {
     color: var(--yellow);
     text-decoration: underline;
@@ -1091,7 +1098,7 @@ a:hover.sottolineatura {
 }
 
 /* tablet */
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .logobar {
     height: 9vh;
   }
@@ -1151,8 +1158,8 @@ a:hover.sottolineatura {
     margin: 9vh 0 0 0;
     padding: 0;
     font-family: var(--font-light);
-    font-size: 7rem;
-    line-height: 8.7rem;
+    font-size: 2.3rem;
+    line-height: 2.7rem;
     color: white;
   }
 
@@ -1160,9 +1167,16 @@ a:hover.sottolineatura {
     margin: 9vh 0 0 0;
     padding: 0;
     font-family: var(--font-light);
-    font-size: 7rem;
-    line-height: 8.7rem;
+    font-size: 2.3rem;
+    line-height: 2.7rem;
     color: black;
+  }
+
+  .nb {
+    font-family: var(--font-regular);
+    color: black;
+    font-size: 2.3rem;
+    line-height: normal;
   }
 
   .underline1 {
@@ -1178,6 +1192,11 @@ a:hover.sottolineatura {
   .underline3 {
     color: var(--black);
     text-decoration: underline;
+  }
+
+  footer .container-fluid {
+    position: fixed;
+    bottom: 1rem;
   }
 
   .banner {
@@ -1200,6 +1219,7 @@ a:hover.sottolineatura {
     text-align: center;
   }
 
+
   @keyframes float {
     0% {
       transform: translatey(0px);
@@ -1215,46 +1235,40 @@ a:hover.sottolineatura {
   }
 
   #PrevVIOLA {
-    margin-left: 4rem;
-    margin-bottom: 1rem;
-    width: 63%;
+    margin-left: 1rem;
+    width: 100%;
     cursor: pointer;
   }
 
   #NextVIOLA {
-    width: 63%;
-    margin-right: 4rem;
-    margin-bottom: 1rem;
+    width: 100%;
+    margin-right: 1rem;
     float: right;
     cursor: pointer;
   }
 
   #PrevCYAN {
-    margin-left: 4rem;
-    margin-bottom: 1rem;
-    width: 63%;
+    margin-left: 1rem;
+    width: 100%;
     cursor: pointer;
   }
 
   #NextCYAN {
-    width: 63%;
-    margin-right: 4rem;
-    margin-bottom: 1rem;
+    width: 100%;
+    margin-right: 1rem;
     float: right;
     cursor: pointer;
   }
 
   #PrevGREEN {
-    margin-left: 4rem;
-    margin-bottom: 1rem;
-    width: 63%;
+    margin-left: 1rem;
+    width: 100%;
     cursor: pointer;
   }
 
   #NextGREEN {
-    width: 63%;
-    margin-right: 4rem;
-    margin-bottom: 1rem;
+    width: 100%;
+    margin-right: 1rem;
     float: right;
     cursor: pointer;
   }
@@ -1265,25 +1279,25 @@ a:hover.sottolineatura {
   }
 
   #gotoquiz {
-    width: 200%;
-    margin-right: 4rem;
+    width: 300%;
+    margin-right: 1rem;
     float: right;
     cursor: pointer;
   }
 
   #immaginees1 {
-    width: 65%;
-    margin-top: 1.5rem;
+    width: 90%;
+    margin-top: 1rem;
   }
 
   #immaginees2 {
-    width: 82%;
-    margin-top: 1.5rem;
+    width: 90%;
+    margin-top: 1rem;
   }
 
   #immaginees3 {
-    width: 92%;
-    margin-top: 1.5rem;
+    width: 110%;
+    margin-top: 1rem;
   }
 
   #HarveyI {
@@ -1350,28 +1364,28 @@ a:hover.sottolineatura {
   }
 
   #Flight17M {
-    margin-top: 30%;
+    margin-top: 33%;
     margin-left: -10%;
     width: 55%;
     animation: float 2s ease-in-out infinite;
   }
 
   #IranD {
-    margin-top: 15%;
+    margin-top: 18%;
     margin-left: -85%;
     width: 55%;
     animation: float 1s ease-in-out infinite;
   }
 
   #HeroDogA2 {
-    margin-top: 3%;
+    margin-top: 8%;
     margin-left: 80%;
     width: 55%;
     animation: float 1.5s ease-in-out infinite;
   }
 
   #Flight17A {
-    margin-top: 5%;
+    margin-top: 11%;
     margin-left: 78%;
     width: 55%;
     animation: float 1.7s ease-in-out infinite;
@@ -1401,40 +1415,40 @@ a:hover.sottolineatura {
   #SummitTrump {
     margin-top: -15%;
     margin-left: -40%;
-    width: 40%;
+    width: 55%;
     animation: float 1.7s ease-in-out infinite;
   }
 
   #HurricaneFlorence {
     margin-top: -13%;
     margin-left: 85%;
-    width: 40%;
+    width: 55%;
     animation: float 1s ease-in-out infinite;
   }
 
   #CataloniaN {
     margin-top: -15%;
     margin-left: 55%;
-    width: 40%;
+    width: 55%;
     animation: float 2s ease-in-out infinite;
   }
 
   #AmazonB {
     margin-top: -15%;
     margin-left: 75%;
-    width: 40%;
+    width: 55%;
     animation: float 1.5s ease-in-out infinite;
   }
 
   .result {
     background-color: var(--yellow);
-    border: 0.4rem solid black;
+    border: 0.2rem solid black;
     position: absolute;
-    top: 15%;
+    top: 12%;
     z-index: 999;
-    padding: 1rem 4rem;
+    padding: 1rem 2rem;
     left: 1%;
-    font-size: 10rem;
+    font-size: 2rem;
     font-family: var(--font-medium);
   }
 
@@ -1444,35 +1458,35 @@ a:hover.sottolineatura {
 
   .resultext {
     background-color: var(--yellow);
-    border: 0.4rem solid black;
+    border: 0.2rem solid black;
     position: absolute;
-    top: 30%;
+    top: 25%;
     z-index: 999;
     padding: 1rem 4rem;
     left: 1%;
-    font-size: 4.78rem;
+    font-size: 1.5rem;
     font-family: var(--font-medium);
   }
 
   .share {
     position: absolute;
-    top: 80%;
+    top: 85%;
     z-index: 999;
     padding: 1rem 4rem;
-    left: 25%;
+    left: 35%;
     font-size: 1.5rem;
     font-family: var(--font-medium);
   }
 
   .resultw {
     background-color: white;
-    border: 0.4rem solid black;
+    border: 0.2rem solid black;
     position: absolute;
-    top: 15%;
+    top: 12%;
     z-index: 999;
-    padding: 1rem 4rem;
+    padding: 1rem 2rem;
     left: 1%;
-    font-size: 10rem;
+    font-size: 2rem;
     font-family: var(--font-medium);
   }
 
@@ -1482,13 +1496,13 @@ a:hover.sottolineatura {
 
   .resultextw {
     background-color: white;
-    border: 0.4rem solid black;
+    border: 0.2rem solid black;
     position: absolute;
-    top: 30%;
+    top: 25%;
     z-index: 999;
     padding: 1rem 4rem;
     left: 1%;
-    font-size: 4.8rem;
+    font-size: 1.5rem;
     font-family: var(--font-medium);
   }
 }

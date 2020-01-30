@@ -555,3 +555,238 @@ a:hover.sottolineatura {
   }
 
 }
+
+
+/* Query schermo touch */
+
+@media screen and (min-width: 1024px) {
+
+  .body1 {
+    min-height: 100%;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: var(--blue);
+    position: relative;
+  }
+
+  .nav {
+    height: 9vh;
+    background-color: var(--violet);
+    border-bottom: 3px solid black;
+    z-index: 100;
+    position: relative;
+  }
+
+  .logo {
+    height: 9vh;
+    padding: 1vh 0 0 2rem;
+    margin: 0;
+  }
+
+  .whatsbehind {
+    height: 9vh;
+    padding: 1vh 2rem 0 0;
+    text-align: right;
+    margin: 0;
+    background-color: var(--white);
+    color: var(--black);
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    z-index: 10;
+  }
+
+  .title1 {
+    font-family: var(--font-var);
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .title3 {
+    font-family: var(--font-semibold);
+    color: black;
+    font-size: 2rem;
+  }
+
+  .anchor {
+    padding: 6.8vh 0 3vh 0;
+    margin: 0 0 0 3rem;
+    text-align: center;
+  }
+
+  .box {
+    padding-right: 0;
+    margin-top: 4.5vh;
+    margin-left: 0;
+    width: 180px;
+    height: 81vh;
+    overflow-y: scroll;
+    border: 3px solid black;
+  }
+
+  .card-text {
+    font-family: var(--font-regular);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 0 2rem 0 3rem;
+
+  }
+
+  .card-text.names {
+    font-family: var(--font-regular);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding: 1rem 2rem 0 3rem;
+  }
+
+  .cit {
+    font-family: var(--font-regular);
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding: 0 5rem 0 4.5rem;
+
+  }
+
+  .dida {
+    font-family: var(--font-regular);
+    font-size: 0.8rem;
+    line-height: 0.9rem;
+    padding: 0 0.8rem 0 0;
+
+  }
+
+  .card-title {
+    font-family: var(--font-semibold);
+    padding: 4rem 0 0 3rem;
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-family: var(--font-semibold);
+    padding: 0 0 2rem 3rem;
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  .subtitlemiddle {
+    font-family: var(--font-semibold);
+    padding: 2rem 0 2rem 3rem;
+    font-size: 2rem;
+  }
+
+  .card-header {
+    border-radius: 0px !important;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    font-family: var(--font-semibold);
+    background-color: var(--pink);
+    border-bottom: 3px solid black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+  }
+
+  .card-body {
+    background-color: var(--white);
+    border-radius: 0px;
+  }
+
+  .card-body img {
+    margin: 1rem 0 2rem 4rem;
+    width: 80%;
+  }
+
+  .card-body img.topic {
+    margin: 2rem 0 2rem 10rem;
+    width: 35%;
+  }
+
+  .card-body img.topicsmall {
+    margin: 2rem 0 2rem 10rem;
+    width: 45%;
+  }
+
+  .card-body img.topicbig {
+    margin: 2rem 0 2rem 6rem;
+    width: 55%;
+  }
+
+  .card-body img.infografica {
+    margin: 1rem 0 1rem 0;
+    width: 100%;
+  }
+
+  .card-body img.dorian {
+    margin: 2rem 0 1rem 0;
+    width: 100%;
+  }
+
+  .card-body a {
+    font-family: var(--font-regular);
+    color: var(--violet);
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .card-body a:hover {
+    font-family: var(--font-regular);
+    color: var(--violet);
+    text-decoration: underline;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  ::-webkit-scrollbar {
+      width: 3rem;
+      background-color: var(--white);
+  }
+
+  ::-webkit-scrollbar-thumb {
+      height: 4px;
+      border: 2px solid white;
+      background-clip: padding-box;
+      -webkit-border-radius: 40px;
+      background-color: var(--yellow);
+      -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05), inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+  }
+
+  ::-webkit-scrollbar-button:vertical:start:decrement {
+    display: block;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    background-color: var(--pink);
+    height: 3.95rem;
+    background-image: url(../assets/Freccina.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+  }
+
+  #Anchor1 {
+    width: 80%;
+    margin: 0 0 2vh 0;
+    cursor: pointer;
+  }
+
+  #Anchor2 {
+    width: 80%;
+    margin: 0 0 2vh 0;
+    cursor: pointer;
+  }
+
+  #Anchor3 {
+    width: 80%;
+    margin: 0 0 2vh 0;
+    cursor: pointer;
+  }
+
+  #Anchor4 {
+    width: 80%;
+    cursor: pointer;
+  }
+
+}
