@@ -218,7 +218,18 @@ $(document).ready(function() {
     window.open('../right-wrong/wrong7.html?q7=' + sbagliato7, '_self');
   });
 
-  //--Warning
+  //--Warning > da sistemare
+  $('#RIGHT08').click(function() {
+    var risul7 = parseInt(check7, 10);
+    let giusto8 = risul7 + 1;
+    window.open('../right-wrong/right8.html?q7=' + check7, '_self');
+  });
+  $('#WRONG08').click(function() {
+    var risul7 = parseInt(check7, 10);
+    let sbagliato8 = risul7 + 0;
+    window.open('../right-wrong/wrong8.html?q7=' + check7, '_self');
+  });
+
 
   //--Question 8
   $('#RIGHT08').click(function() {

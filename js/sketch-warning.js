@@ -4,10 +4,10 @@ function setup() {}
 
 function draw() {}
 
-function mouseClicked() {
-  var next = document.getElementById('next1'); //--inserire le opzioni click (nel main?)
-  window.open('../q/q8.html?q7=' + check7, '_self');
-}
+// function mouseClicked() {
+//   var next = document.getElementById('next1'); //--inserire le opzioni click (nel main?)
+//   window.open('../q/q8.html?q7=' + check7, '_self');
+// }
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
