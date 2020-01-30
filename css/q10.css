@@ -416,6 +416,13 @@ a:hover {
   fill: #FFF;
 }
 
+.cls-18 {
+  stroke-width: 2px;
+  fill: #FFF;
+  stroke-miterlimit: 10;
+  stroke: #000;
+}
+
 /* Transizione */
 
 .animate-in {
