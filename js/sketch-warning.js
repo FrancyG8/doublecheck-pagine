@@ -2,7 +2,11 @@ function preload() {}
 
 function setup() {}
 
-function draw() {}
+function draw() {
+  $('#NEXTW').click(function() {
+    window.open('../q/q9.html?q8=' + check8, '_self');
+  });
+}
 
 // function mouseClicked() {
 //   var next = document.getElementById('next1'); //--inserire le opzioni click (nel main?)
@@ -16,5 +20,5 @@ function windowResized() {
 var url_string = window.location.href;
 var url = new URL(url_string);
 
-var check7 = url.searchParams.get("q7");
-console.log(check7);
+var check8 = url.searchParams.get("q8");
+console.log(check8);

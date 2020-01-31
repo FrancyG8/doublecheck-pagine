@@ -16,5 +16,5 @@ function windowResized() {
 var url_string = window.location.href;
 var url = new URL(url_string);
 
-var check3 = url.searchParams.get("q2");
+var check3 = url.searchParams.get("q3");
 console.log(check3);

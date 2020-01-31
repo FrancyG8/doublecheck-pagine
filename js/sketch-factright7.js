@@ -6,7 +6,7 @@ function draw() {}
 
 function mouseClicked() {
   var next = document.getElementById('next1');
-  window.open('../warning.html?q7=' + check7, '_self');
+  window.open('../q/q8.html?q7=' + check7, '_self');
 }
 
 function windowResized() {
