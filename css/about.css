@@ -559,7 +559,7 @@ a:hover.sottolineatura {
 
 /* Query schermo touch */
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
   .body1 {
     min-height: 100%;
