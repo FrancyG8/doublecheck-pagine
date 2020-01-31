@@ -230,7 +230,7 @@ $(document).ready(function() {
     window.open('../right-wrong/wrong8.html?q8=' + sbagliato8, '_self');
   });
 
-  //--Warning > da sistemare
+  //--Warning
   $('#SKIPW').click(function() {
     var risul8 = parseInt(check8, 10);
     let giusto9 = risul8 + 1;
@@ -315,6 +315,5 @@ $(document).ready(function() {
     $('#testuale').fadeIn();
   }, 3000);
 
-  // $( "#parag" ).text( "Result:" +  +  "/10" );
 
 });
