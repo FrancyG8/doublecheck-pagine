@@ -20,7 +20,7 @@ function windowResized() {
 function tempoScaduto() {
   var risul9 = parseInt(check9, 10);
   let sbagliato10 = risul9 + 0;
-  window.open('../right-wrong/timeisup4.html?q10=' + sbagliato10, '_self');
+  window.open('../right-wrong/timeisup10.html?q10=' + sbagliato10, '_self');
 }
 
 var url_string = window.location.href;
