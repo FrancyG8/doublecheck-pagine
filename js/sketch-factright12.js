@@ -5,8 +5,13 @@ function setup() {}
 function draw() {}
 
 function mouseClicked() {
-  var next = document.getElementById('next1');
-  window.open('../q/q12.html?q11=' + check11, '_self'); //--if per l'animazione corretta
+  if (check12 == 12) {
+    var next = document.getElementById('next1');
+    window.open('../an-right.html?q12=' + check12, '_self'); //--if per l'animazione corretta
+  } else if (check12 < 12) {
+    var next = document.getElementById('next1');
+    window.open('../an-wrong.html?q12=' + check12, '_self');
+  }
 }
 
 function windowResized() {
@@ -16,5 +21,5 @@ function windowResized() {
 var url_string = window.location.href;
 var url = new URL(url_string);
 
-var check11 = url.searchParams.get("q11");
-console.log(check11);
+var check12 = url.searchParams.get("q12");
+console.log(check12);
