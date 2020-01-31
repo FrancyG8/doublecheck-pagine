@@ -2,11 +2,10 @@ function preload() {}
 
 function setup() {}
 
-function draw() {}
-
-function mouseClicked() {
-  var next = document.getElementById('next1');
-  window.open('../warning.html?q8=' + check8, '_self');
+function draw() {
+  $('#next1').click(function() {
+    window.open('../warning.html?q8=' + check8, '_self');
+  });
 }
 
 function windowResized() {

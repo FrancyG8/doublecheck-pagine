@@ -2,11 +2,10 @@ function preload() {}
 
 function setup() {}
 
-function draw() {}
-
-function mouseClicked() {
-  var next = document.getElementById('next1');
-  window.open('../q/q10.html?q9=' + check9, '_self');
+function draw() {
+  $('#next1').click(function() {
+    window.open('../q/q10.html?q9=' + check9, '_self');
+  });
 }
 
 function windowResized() {

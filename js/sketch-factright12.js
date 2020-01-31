@@ -2,17 +2,25 @@ function preload() {}
 
 function setup() {}
 
-function draw() {}
-
-function mouseClicked() {
-  if (check12 == 12) {
-    var next = document.getElementById('next1');
-    window.open('../an-right.html?q12=' + check12, '_self');
-  } else if (check12 < 12) {
-    var next = document.getElementById('next1');
-    window.open('../an-wrong.html?q12=' + check12, '_self');
-  }
+function draw() {
+  $('#next1').click(function() {
+    if (check12 == 12) {
+      window.open('../an-right.html?q12=' + check12, '_self');
+    } else if (check12 < 12) {
+      window.open('../an-wrong.html?q12=' + check12, '_self');
+    }
+  });
 }
+
+// function mouseClicked() {
+//   if (check12 == 12) {
+//     var next = document.getElementById('next1');
+//     window.open('../an-right.html?q12=' + check12, '_self');
+//   } else if (check12 < 12) {
+//     var next = document.getElementById('next1');
+//     window.open('../an-wrong.html?q12=' + check12, '_self');
+//   }
+// }
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
