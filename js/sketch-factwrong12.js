@@ -6,7 +6,7 @@ function draw() {}
 
 function mouseClicked() {
   var next = document.getElementById('next1');
-  window.open('../an-wrong.html?q12=' + check12, '_self'); //--if per l'animazione corretta
+  window.open('../an-wrong.html?q12=' + check12, '_self');
 }
 
 function windowResized() {

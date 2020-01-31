@@ -315,4 +315,6 @@ $(document).ready(function() {
     $('#testuale').fadeIn();
   }, 3000);
 
+  // $( "#parag" ).text( "Result:" +  +  "/10" );
+
 });
