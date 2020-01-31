@@ -7,9 +7,9 @@ function setup() {
 }
 
 function draw() {
-  if (frameCount >= 150) {
-    window.open('../fact/fact12r.html?q12=' + check12, '_self');
-  }
+  // if (frameCount >= 150) {
+  //   window.open('../fact/fact12r.html?q12=' + check12, '_self');
+  // }
 }
 
 function windowResized() {
