@@ -196,6 +196,7 @@ footer .container-fluid {
 }
 
 /* home page */
+
 .logobar {
   height: 80px;
 }
@@ -366,7 +367,7 @@ a:hover.sottolineatura {
   margin-left: 1.5rem;
   width: 63%;
   cursor: pointer;
-  margin-bottom: -10rem;
+  margin-bottom: -14.5rem;
 }
 
 #gotoquiz {
@@ -529,6 +530,7 @@ a:hover.sottolineatura {
 }
 
 /* Transizione */
+
 .animate-in {
   -webkit-animation: fadeIn .5s ease-in;
   animation: fadeIn .5s ease-in;
@@ -559,6 +561,8 @@ a:hover.sottolineatura {
     opacity: 1;
   }
 }
+
+/* Risultati finali */
 
 .result {
   background-color: var(--yellow);
@@ -630,7 +634,9 @@ a:hover.sottolineatura {
   font-family: var(--font-medium);
 }
 
-/* media query chermo 4k */
+
+/* media query schermo 4k */
+
 @media screen and (min-width: 3840px) {
   .logobar {
     height: 9vh;
@@ -1042,7 +1048,9 @@ a:hover.sottolineatura {
   }
 }
 
+
 /* mobile */
+
 @media only screen and (min-width: 320px) {
   .mobile {
     position: absolute;
@@ -1105,7 +1113,9 @@ a:hover.sottolineatura {
   }
 }
 
+
 /* tablet */
+
 @media only screen and (max-width: 1024px) {
   .logobar {
     height: 9vh;
@@ -1282,9 +1292,7 @@ a:hover.sottolineatura {
   }
 
   #PrevYELLOW {
-    margin-left: 1.5rem;
-    width: 100%;
-    cursor: pointer;
+    display: none;
   }
 
   #START {
