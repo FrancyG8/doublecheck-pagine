@@ -228,7 +228,7 @@ $(document).ready(function() {
   $('#SKIPW').click(function() {
     var risul8 = parseInt(check8, 10);
     let giusto9 = risul8 + 1;
-    window.open('../q/q10.html?q9=' + giusto9, '_self');
+    window.open('./q/q10.html?q9=' + giusto9, '_self');
   });
 
   //--Question 9
