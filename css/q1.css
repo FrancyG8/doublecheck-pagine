@@ -2,10 +2,11 @@
 :root {
   --black: #000000;
   --white: #ffffff;
-  --yellow: #FFCC00;
+  --yellow: #ffffff;
   --red: #FF0000;
-  --pink: #FF99CC;
-  --green: #00CC66;
+  --pink: #ffffff;
+  --green: #fffff;
+  --blue: #0000FF;
   --cyan: #00FFFF;
   --blue: #0099FF;
   --violet: #9900FF;
@@ -33,7 +34,7 @@ body, html {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #FFCC00;
+  background-color: var(--yellow);
   overflow: hidden;
 }
 
@@ -41,7 +42,7 @@ body {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #FFCC00;
+  background-color: var(--yellow);
   position: relative;
   width: 100vw;
 }
@@ -136,7 +137,7 @@ a:hover {
   top: 0;
   width: 100vw;
   overflow: hidden;
-  background-color: var(--violet);
+  background-color: var(--black);
   padding-left: 100%;
 }
 
@@ -160,7 +161,7 @@ a:hover {
   font-size: 2rem;
   padding: 0 0.5rem;
   font-family: var(--font-light);
-  color: white;
+  color: var(--white);
 }
 
 .rect {
@@ -172,7 +173,7 @@ a:hover {
 
 .text {
   padding: 0;
-  color: white;
+  color: var(--blue);
 }
 
 /* elementi principali */
@@ -184,7 +185,7 @@ a:hover {
 .table th {
   vertical-align: middle;
   padding: 0;
-  border: 2px solid black;
+  border: 2px solid white;
 }
 
 .table td {
@@ -198,8 +199,8 @@ a:hover {
 }
 
 .clessidra {
-  background-color: var(--yellow);
-  border: 0.5px solid black;
+  background-color: var(--black);
+  border: 0.5px solid white;
   width: 3.5rem;
   text-align: center;
   padding: .75rem !important;
@@ -228,7 +229,7 @@ a:hover {
    /* Safari 4.0 - 8.0 */
    @-webkit-keyframes gradiente {
      0%   {color: black;}
-     50%  {color: var(--yellow);}
+     50%  {color: var(--green);}
      100% {color: #000000;}
    }
    /* Standard syntax */
@@ -244,7 +245,7 @@ a:hover {
 }
 
 .title {
-  background-color: var(--yellow);
+  background-color: var(--black);
   border: 0.5px solid black;
   padding: .75rem !important;
 }
@@ -257,23 +258,23 @@ a:hover {
 }
 
 .numero {
-  background-color: var(--yellow);
+  background-color: var(--black);
   width: 3.5rem;
   line-height: 2rem;
-  border: 2px solid black;
+  border: 2px solid white;
   text-align: right;
 }
 
 .tempo {
-  background-color: var(--yellow);
-  border: 2px solid black;
-  border-right: 2px solid black;
+  background-color: var(--black);
+  border: 2px solid white;
+  border-right: 2px solid white;
   text-align: center;
 }
 
 .giustosbagliato {
-  border: 2px solid black;
-  border-right: 2px solid black;
+  border: 2px solid white;
+  border-right: 2px solid white;
   text-align: center;
 }
 
@@ -367,7 +368,7 @@ a:hover {
 .cls-7,
 .cls-8,
 .cls-9 {
-  stroke: #000;
+  stroke: #fff;
   stroke-miterlimit: 10;
   stroke-width: 2px;
 }
@@ -395,7 +396,7 @@ a:hover {
 .cls-12,
 .cls-13,
 .cls-14 {
-  fill: #010101;
+  fill: #fffff;
 }
 
 .cls-16,

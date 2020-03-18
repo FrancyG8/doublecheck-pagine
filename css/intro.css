@@ -1,6 +1,6 @@
 /* main */
 :root {
-  --black: #000000;
+  --black: #3f3f3f;
   --white: #ffffff;
   --yellow: #FFCC00;
   --red: #FF0000;
@@ -8,7 +8,7 @@
   --green: #00CC66;
   --cyan: #00FFFF;
   --blue: #0099FF;
-  --violet: #9900FF;
+  --violet: #ffffff;
   --font-light: bandeins_strangelight;
   --font-regular: bandeins_strangeregular;
   --font-bold: bandeins_strangebold;
@@ -211,7 +211,7 @@ footer .container-fluid {
 
 .title1 {
   font-family: var(--font-var);
-  color: white;
+  color: var(--black);
   font-size: 2rem;
   margin: 0;
 }
@@ -270,7 +270,7 @@ a:hover.sottolineatura {
   font-family: var(--font-light);
   font-size: 3rem;
   line-height: 3.5rem;
-  color: white;
+  color: var(--black);
 }
 
 .text2 {
@@ -310,7 +310,7 @@ a:hover.sottolineatura {
 }
 
 .underline1 {
-  color: var(--yellow);
+  color: var(--green);
   text-decoration: underline;
 }
 
