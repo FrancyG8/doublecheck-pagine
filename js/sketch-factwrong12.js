@@ -6,10 +6,18 @@ function draw() {
   $('#next1').click(function() {
     window.open('../an-wrong.html?q12=' + check12, '_self');
   });
+
+  if(frameCount >= 21000){ //more or less after 3 minutes
+    backHome();
+  }
 }
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
+}
+
+function backHome(){
+  window.open('../index.html', '_self');
 }
 
 var url_string = window.location.href;
