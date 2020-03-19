@@ -332,6 +332,11 @@ a:hover.sottolineatura {
   text-decoration: underline;
 }
 
+.underline4 {
+  color: var(--white);
+  text-decoration: underline;
+}
+
 #PrevVIOLA {
   margin-left: 1.5rem;
   width: 63%;

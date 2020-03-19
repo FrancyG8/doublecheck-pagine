@@ -1,14 +1,13 @@
 /* main */
 :root {
   --black: #000000;
-  --white: #ffffff;
-  --yellow: #ffffff;
+  --white: #FFFFFF;
+  --yellow: #FFCC00;
   --red: #FF0000;
-  --pink: #ffffff;
-  --green: #fffff;
-  --blue: #0000FF;
+  --pink: #FF99CC;
+  --green: #00FF00;
   --cyan: #00FFFF;
-  --blue: #0099FF;
+  --blue: #0000FF;
   --violet: #9900FF;
   --font-light: bandeins_strangelight;
   --font-regular: bandeins_strangeregular;
@@ -34,7 +33,7 @@ body, html {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  background-color: var(--yellow);
+  background-color: var(--white);
   overflow: hidden;
 }
 
@@ -42,7 +41,7 @@ body {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  background-color: var(--yellow);
+  background-color: var(--white);
   position: relative;
   width: 100vw;
 }
@@ -166,14 +165,14 @@ a:hover {
 
 .rect {
   text-align: center;
-  background-color: var(--violet);
+  background-color: var(--black);
   border: 2px solid black !important;
   margin: 0;
 }
 
 .text {
   padding: 0;
-  color: var(--blue);
+  color: var(--white);
 }
 
 /* elementi principali */
@@ -185,7 +184,7 @@ a:hover {
 .table th {
   vertical-align: middle;
   padding: 0;
-  border: 2px solid white;
+  border: 2px solid black;
 }
 
 .table td {
@@ -199,8 +198,8 @@ a:hover {
 }
 
 .clessidra {
-  background-color: var(--black);
-  border: 0.5px solid white;
+  background-color: var(--white);
+  border: 0.5px solid black;
   width: 3.5rem;
   text-align: center;
   padding: .75rem !important;
@@ -235,7 +234,7 @@ a:hover {
    /* Standard syntax */
    @keyframes gradiente {
      0%   {color: black;}
-     50%  {color: var(--yellow);}
+     50%  {color: var(--green);}
      100% {color: #000000;}
    }
 
