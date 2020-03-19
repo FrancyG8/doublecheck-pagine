@@ -7,7 +7,7 @@
   --pink: #FF99CC;
   --green: #00ff00;
   --cyan: #00FFFF;
-  --blue: #0099FF;
+  --blue: #0000FF;
   --violet: #9900FF;
   --font-light: bandeins_strangelight;
   --font-regular: bandeins_strangeregular;
@@ -323,7 +323,7 @@ a:hover.sottolineatura {
 }
 
 .underline2 {
-  color: var(--violet);
+  color: var(--blue);
   text-decoration: underline;
 }
 
