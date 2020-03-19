@@ -10,20 +10,18 @@ function draw() {
       window.open('../an-wrong.html?q12=' + check12, '_self');
     }
   });
-}
 
-// function mouseClicked() {
-//   if (check12 == 12) {
-//     var next = document.getElementById('next1');
-//     window.open('../an-right.html?q12=' + check12, '_self');
-//   } else if (check12 < 12) {
-//     var next = document.getElementById('next1');
-//     window.open('../an-wrong.html?q12=' + check12, '_self');
-//   }
-// }
+  if(frameCount >= 21000){ //more or less after 3 minutes
+    backHome();
+  }
+}
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
+}
+
+function backHome(){
+  window.open('../index.html', '_self');
 }
 
 var url_string = window.location.href;
