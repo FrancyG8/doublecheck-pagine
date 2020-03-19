@@ -372,6 +372,16 @@ a:hover {
   stroke-width: 2px;
 }
 
+.cls-37,
+.cls-5,
+.cls-7,
+.cls-8,
+.cls-9 {
+  stroke: var(--red);
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
 .cls-4,
 .cls-9 {
   fill: #00c966;
