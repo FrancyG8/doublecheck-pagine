@@ -8,7 +8,7 @@ function setup() {
 
 function draw() {
   var risulFin = parseInt(check12, 10);
-  $( "#parag" ).text( "Result: " + risulFin +  "/10" );
+  $( "#parag" ).text( "Result: " + risulFin +  "/12" );
 }
 
 function windowResized() {
