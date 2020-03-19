@@ -228,13 +228,13 @@ a:hover {
    /* Safari 4.0 - 8.0 */
    @-webkit-keyframes gradiente {
      0%   {color: black;}
-     50%  {color: var(--green);}
+     50%  {color: var(--red);}
      100% {color: #000000;}
    }
    /* Standard syntax */
    @keyframes gradiente {
      0%   {color: black;}
-     50%  {color: var(--green);}
+     50%  {color: var(--red);}
      100% {color: #000000;}
    }
 
@@ -257,23 +257,23 @@ a:hover {
 }
 
 .numero {
-  background-color: var(--black);
+  background-color: var(--white);
   width: 3.5rem;
   line-height: 2rem;
-  border: 2px solid white;
+  border: 2px solid var(--black);
   text-align: right;
 }
 
 .tempo {
-  background-color: var(--black);
-  border: 2px solid white;
-  border-right: 2px solid white;
+  background-color: var(--white);
+  border: 2px solid var(--black);
+  border-right: 2px solid black;
   text-align: center;
 }
 
 .giustosbagliato {
-  border: 2px solid white;
-  border-right: 2px solid white;
+  border: 2px solid var(--black);
+  border-right: 2px solid var(--black);
   text-align: center;
 }
 
@@ -367,7 +367,7 @@ a:hover {
 .cls-7,
 .cls-8,
 .cls-9 {
-  stroke: #fff;
+  stroke: var(--red);
   stroke-miterlimit: 10;
   stroke-width: 2px;
 }
