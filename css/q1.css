@@ -2,12 +2,13 @@
 :root {
   --black: #000000;
   --white: #FFFFFF;
+  --grey: ##f8f9fa;
   --yellow: #FFCC00;
-  --red: #FF0000;
+  --red: #dc3545;
   --pink: #FF99CC;
-  --green: #00FF00;
+  --green: #28a745;
   --cyan: #00FFFF;
-  --blue: #0000FF;
+  --blue: #007bff;
   --violet: #9900FF;
   --font-light: bandeins_strangelight;
   --font-regular: bandeins_strangeregular;
@@ -228,13 +229,13 @@ a:hover {
    /* Safari 4.0 - 8.0 */
    @-webkit-keyframes gradiente {
      0%   {color: black;}
-     50%  {color: var(--red);}
+     50%  {color: var(--white);}
      100% {color: #000000;}
    }
    /* Standard syntax */
    @keyframes gradiente {
      0%   {color: black;}
-     50%  {color: var(--red);}
+     50%  {color: var(--white);}
      100% {color: #000000;}
    }
 

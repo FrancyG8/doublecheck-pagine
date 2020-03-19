@@ -1,11 +1,14 @@
 /* main */
 :root {
+  --black: #000000;
+  --white: #FFFFFF;
+  --grey: #eaeaea;
   --yellow: #FFCC00;
-  --red: #FF0000;
+  --red: #dc3545;
   --pink: #FF99CC;
-  --green: #00CC66;
+  --green: #28a745;
   --cyan: #00FFFF;
-  --blue: #0099FF;
+  --blue: #007bff;
   --violet: #9900FF;
   --font-light: bandeins_strangelight;
   --font-regular: bandeins_strangeregular;
@@ -27,7 +30,7 @@ body, html {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  background-color: var(--pink);
+  background-color: var(--white);
   overflow: hidden;
 }
 
@@ -35,7 +38,7 @@ body {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  background-color: var(--pink);
+  background-color: var(--white);
   position: relative;
   width: 100vw;
 }
@@ -126,7 +129,7 @@ a:hover {
   top: 0;
   width: 100vw;
   overflow: hidden;
-  background-color: var(--blue);
+  background-color: var(--black);
   padding-left: 100%;
 }
 
@@ -188,7 +191,7 @@ a:hover {
 }
 
 .clessidra {
-  background-color: var(--pink);
+  background-color: var(--white);
   border: 0.5px solid black;
   width: 3.5rem;
   text-align: center;
@@ -218,13 +221,13 @@ a:hover {
    /* Safari 4.0 - 8.0 */
    @-webkit-keyframes gradiente {
      0%   {color: black;}
-     50%  {color: var(--pink);}
+     50%  {color: var(--white);}
      100% {color: #000000;}
    }
    /* Standard syntax */
    @keyframes gradiente {
      0%   {color: black;}
-     50%  {color: var(--pink);}
+     50%  {color: var(--white);}
      100% {color: #000000;}
    }
 
@@ -235,7 +238,7 @@ a:hover {
 
 
 .title {
-  background-color: var(--pink);
+  background-color: var(--white);
   border: 0.5px solid black;
   padding: .75rem !important;
 }
@@ -248,7 +251,7 @@ a:hover {
 }
 
 .numero {
-  background-color: var(--pink);
+  background-color: var(--white);
   width: 3.5rem;
   line-height: 2rem;
   border: 2px solid black;
@@ -257,7 +260,7 @@ a:hover {
 }
 
 .tempo {
-  background-color: var(--pink);
+  background-color: var(--white);
   border: 2px solid black;
   border-right: 2px solid black;
   text-align: center;
@@ -349,7 +352,7 @@ a:hover {
 
 .cls-3,
 .cls-6 {
-  fill: #fff;
+  fill: #eaeaea;
 }
 
 .cls-3,
@@ -359,8 +362,22 @@ a:hover {
   stroke-width: 2px;
 }
 
+.cls-3,
+.cls-55,
+.cls-7,
+.cls-8,
+.cls-9 {
+  stroke: var(--black);
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.cls-61 {
+  fill: var(--green);
+}
+
 .cls-4 {
-  fill: red;
+  fill: white;
 }
 
 .cls-15,

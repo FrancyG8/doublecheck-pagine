@@ -2,12 +2,13 @@
 :root {
   --black: #000000;
   --white: #FFFFFF;
+  --grey: ##f8f9fa;
   --yellow: #FFCC00;
-  --red: #FF0000;
+  --red: #dc3545;
   --pink: #FF99CC;
-  --green: #00FF00;
+  --green: #28a745;
   --cyan: #00FFFF;
-  --blue: #0000FF;
+  --blue: #007bff;
   --violet: #9900FF;
   --font-light: bandeins_strangelight;
   --font-regular: bandeins_strangeregular;
@@ -249,7 +250,7 @@ a:hover {
 
 /* fact2r */
 .cls-18 {
-  fill: #f9c;
+  fill: var(--white);
 }
 
 .cls-18,
@@ -289,7 +290,7 @@ a:hover {
 
 /* fact3r */
 .cls-22 {
-  fill: aqua;
+  fill: var(--white);
 }
 
 .cls-22,
@@ -305,7 +306,7 @@ a:hover {
 
 /* fact5r */
 .cls-24 {
-  fill: #fc0;
+  fill: var(--white);
 }
 
 .cls-24,
@@ -336,7 +337,7 @@ a:hover {
 }
 
 .cls-28 {
-  fill: #fc0;
+  fill: var(--white);
 }
 
 .cls-28,
@@ -364,7 +365,7 @@ a:hover {
 
 /* fact8r */
 .cls-33 {
-  fill: #fc0;
+  fill: var(--white);
 }
 
 .cls-33,
@@ -386,7 +387,7 @@ a:hover {
 }
 
 .cls-36 {
-  fill: #ff97cc;
+  fill: var(--white);
 }
 
 .cls-36,
@@ -434,7 +435,7 @@ a:hover {
 }
 
 .cls-43 {
-  fill: #fc0;
+  fill: var(--white);
 }
 
 /* bottoni warning */
