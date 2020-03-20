@@ -2,12 +2,13 @@
 :root {
   --black: #000000;
   --white: #ffffff;
+  --grey: ##f8f9fa;
   --yellow: #FFCC00;
-  --red: #FF0000;
+  --red: #dc3545;
   --pink: #FF99CC;
-  --green: #00CC66;
+  --green: #28a745;
   --cyan: #00FFFF;
-  --blue: #0099FF;
+  --blue: #007bff;
   --violet: #9900FF;
   --font-light: bandeins_strangelight;
   --font-regular: bandeins_strangeregular;
@@ -101,7 +102,7 @@ a:hover.sottolineatura {
   width: 100vw;
   margin: 0;
   padding: 0;
-  background-color: var(--blue);
+  background-color: var(--white);
   position: relative;
 }
 
@@ -109,7 +110,7 @@ a:hover.sottolineatura {
 
 .nav {
   height: 9vh;
-  background-color: var(--violet);
+  background-color: var(--black);
   border-bottom: 3px solid black;
   z-index: 100;
   position: relative;
