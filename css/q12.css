@@ -1,5 +1,8 @@
 /* main */
 :root {
+  --black: #000000;
+  --white: #FFFFFF;
+  --grey: #C0C0C0;
   --black: #3F3F3F;
   --yellow: #FFCC00;
   --red: #FF0000;

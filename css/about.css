@@ -2,7 +2,7 @@
 :root {
   --black: #000000;
   --white: #ffffff;
-  --grey: ##f8f9fa;
+  --grey: #C0C0C0;
   --yellow: #FFCC00;
   --red: #dc3545;
   --pink: #FF99CC;
@@ -102,7 +102,7 @@ a:hover.sottolineatura {
   width: 100vw;
   margin: 0;
   padding: 0;
-  background-color: var(--white);
+  background-color: var(--grey);
   position: relative;
 }
 
@@ -215,7 +215,7 @@ a:hover.sottolineatura {
   font-size: 1.3rem;
   padding-left: 2rem;
   font-family: var(--font-semibold);
-  background-color: var(--pink);
+  background-color: var(--white);
   border-bottom: 3px solid black;
   position: -webkit-sticky;
   position: sticky;
@@ -267,7 +267,7 @@ a:hover.sottolineatura {
 
 .card-body a:hover {
   font-family: var(--font-regular);
-  color: var(--violet);
+  color: var(--blue);
   text-decoration: underline;
   font-size: 1.7rem;
   line-height: 2.2rem;
@@ -284,7 +284,7 @@ a:hover.sottolineatura {
     border: 3px solid white;
     background-clip: padding-box;
     -webkit-border-radius: 40px;
-    background-color: var(--yellow);
+    background-color: var(--black);
     -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05), inset 1px 1px 0px rgba(0, 0, 0, 0.05);
 }
 
@@ -292,7 +292,7 @@ a:hover.sottolineatura {
   display: block;
   border-bottom: 3px solid black;
   border-left: 3px solid black;
-  background-color: var(--pink);
+  background-color: var(--white);
   height: 3.65rem;
   background-image: url(../assets/Freccina.png);
   background-position: center;
