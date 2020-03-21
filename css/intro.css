@@ -1196,9 +1196,10 @@ a:hover.sottolineatura {
 
   .title3 {
     font-family: var(--font-semibold);
-    color: black;
+    color: white;
     font-size: 2rem;
   }
+
 
   .text1 {
     margin: 9vh 0 0 0;

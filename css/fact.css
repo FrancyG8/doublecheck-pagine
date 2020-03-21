@@ -500,6 +500,13 @@ a:hover {
   font-family: bandeins_strangebold;
 }
 
+.cls-104 {
+  fill: var(--red);
+  stroke: var(--white);
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
 #HINT {
   width: 80%;
   margin: auto;
