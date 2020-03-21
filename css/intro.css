@@ -579,7 +579,7 @@ a:hover.sottolineatura {
 /* Risultati finali */
 
 .result {
-  background-color: var(--yellow);
+  background-color: var(--white);
   border: 0.1rem solid black;
   position: absolute;
   top: 15%;
@@ -595,7 +595,7 @@ a:hover.sottolineatura {
 }
 
 .resultext {
-  background-color: var(--yellow);
+  background-color: var(--white);
   border: 0.1rem solid black;
   position: absolute;
   top: 35%;
@@ -658,7 +658,7 @@ a:hover.sottolineatura {
 
   .nav {
     height: 9vh;
-    background-color: var(--violet);
+    background-color: var(--black);
     border-bottom: 5px solid black;
     z-index: 100;
     position: relative;
@@ -734,12 +734,12 @@ a:hover.sottolineatura {
   }
 
   .underline1 {
-    color: var(--yellow);
+    color: var(--green);
     text-decoration: underline;
   }
 
   .underline2 {
-    color: var(--violet);
+    color: var(--blue);
     text-decoration: underline;
   }
 
@@ -1071,7 +1071,7 @@ a:hover.sottolineatura {
     width: 100vw;
     height: 100vh;
     z-index: 2000;
-    background-color: var(--yellow);
+    background-color: var(--white);
   }
 
   .titlemobile {
@@ -1099,7 +1099,7 @@ a:hover.sottolineatura {
   }
 
   .navv {
-    background-color: var(--violet);
+    background-color: var(--black);
     border-bottom: 3px solid black;
     vertical-align: middle;
     z-index: 1000;
@@ -1137,7 +1137,7 @@ a:hover.sottolineatura {
 
   .nav {
     height: 9vh;
-    background-color: var(--violet);
+    background-color: var(--black);
     border-bottom: 3px solid black;
     z-index: 100;
     position: relative;
@@ -1160,8 +1160,8 @@ a:hover.sottolineatura {
     padding: 1vh 2rem 0 0;
     text-align: right;
     margin: 0;
-    background-color: var(--white);
-    color: var(--black);
+    background-color: var(--black);
+    color: var(--white);
     border-bottom: 3px solid black;
     border-left: 3px solid black;
     z-index: 10;
@@ -1169,7 +1169,7 @@ a:hover.sottolineatura {
 
   .title1 {
     font-family: var(--font-var);
-    color: black;
+    color: white;
     font-size: 2rem;
     margin: 0;
   }
@@ -1192,7 +1192,7 @@ a:hover.sottolineatura {
     font-family: var(--font-light);
     font-size: 2.3rem;
     line-height: 2.7rem;
-    color: white;
+    color: black;
   }
 
   .text2 {
@@ -1212,12 +1212,12 @@ a:hover.sottolineatura {
   }
 
   .underline1 {
-    color: var(--yellow);
+    color: var(--green);
     text-decoration: underline;
   }
 
   .underline2 {
-    color: var(--violet);
+    color: var(--blue);
     text-decoration: underline;
   }
 
