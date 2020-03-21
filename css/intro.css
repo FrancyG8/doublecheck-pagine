@@ -682,16 +682,23 @@ a:hover.sottolineatura {
     padding: 2vh 4rem 0 0;
     text-align: right;
     margin: 0;
-    background-color: var(--white);
-    color: var(--black);
+    background-color: var(--black);
+    color: var(--white);
     border-bottom: 5px solid black;
-    border-left: 5px solid black;
+    border-left: 5px solid white;
     z-index: 10;
   }
 
   .title1 {
     font-family: var(--font-var);
-    color: black;
+    color: white;
+    font-size: 4.5rem;
+    margin: 0;
+  }
+
+  .title11 {
+    font-family: var(--font-var);
+    color: var(--black);
     font-size: 4.5rem;
     margin: 0;
   }
@@ -704,7 +711,7 @@ a:hover.sottolineatura {
 
   .title3 {
     font-family: var(--font-semibold);
-    color: black;
+    color: white;
     font-size: 4.5rem;
   }
 
@@ -1002,7 +1009,7 @@ a:hover.sottolineatura {
   }
 
   .result {
-    background-color: var(--yellow);
+    background-color: var(--white);
     border: 0.4rem solid black;
     position: absolute;
     top: 15%;
@@ -1018,7 +1025,7 @@ a:hover.sottolineatura {
   }
 
   .resultext {
-    background-color: var(--yellow);
+    background-color: var(--white);
     border: 0.4rem solid black;
     position: absolute;
     top: 30%;
@@ -1163,13 +1170,20 @@ a:hover.sottolineatura {
     background-color: var(--black);
     color: var(--white);
     border-bottom: 3px solid black;
-    border-left: 3px solid black;
+    border-left: 3px solid white;
     z-index: 10;
   }
 
   .title1 {
     font-family: var(--font-var);
     color: white;
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .title11 {
+    font-family: var(--font-var);
+    color: black;
     font-size: 2rem;
     margin: 0;
   }
@@ -1477,7 +1491,7 @@ a:hover.sottolineatura {
   }
 
   .result {
-    background-color: var(--yellow);
+    background-color: var(--white);
     border: 0.2rem solid black;
     position: absolute;
     top: 12%;
@@ -1493,7 +1507,7 @@ a:hover.sottolineatura {
   }
 
   .resultext {
-    background-color: var(--yellow);
+    background-color: var(--white);
     border: 0.2rem solid black;
     position: absolute;
     top: 25%;
