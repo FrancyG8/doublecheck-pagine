@@ -456,7 +456,7 @@ a:hover {
 
 .cls-50,
 .cls-44 {
-  fill: red;
+  fill: var(--red);
 }
 
 .cls-44,
