@@ -720,7 +720,7 @@ a:hover.sottolineatura {
     font-family: var(--font-light);
     font-size: 7rem;
     line-height: 8.7rem;
-    color: white;
+    color: black;
   }
 
   .text2 {
