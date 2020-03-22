@@ -617,7 +617,7 @@ a:hover {
     top: 0;
     width: 100vw;
     overflow: hidden;
-    background-color: var(--blue);
+    background-color: var(--black);
     padding-left: 100%;
   }
 

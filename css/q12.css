@@ -484,7 +484,7 @@ a:hover {
 
   .rect {
     text-align: center;
-    background-color: var(--blue);
+    background-color: var(--black);
     border: 0.4rem solid black !important;
     margin: 0;
     height: 8vh;
@@ -515,14 +515,14 @@ a:hover {
   }
 
   .clessidra {
-    background-color: var(--pink);
+    background-color: var(--white);
     border: 0.4rem solid black;
     width: 9vh;
     text-align: center;
   }
 
   .numero {
-    background-color: var(--pink);
+    background-color: var(--white);
     width: 10vh;
     border: 0.4rem solid black;
     text-align: right;
@@ -585,7 +585,7 @@ a:hover {
   }
 
   .tempo {
-    background-color: var(--pink);
+    background-color: var(--white);
     border: 0.4rem solid black;
     border-right: 0.4rem solid black;
     text-align: center;
@@ -655,7 +655,7 @@ a:hover {
     top: 0;
     width: 100vw;
     overflow: hidden;
-    background-color: var(--blue);
+    background-color: var(--black);
     padding-left: 100%;
   }
 
