@@ -579,8 +579,8 @@ a:hover.sottolineatura {
 /* Risultati finali */
 
 .result {
-  background-color: var(--white);
-  border: 0.1rem solid black;
+  background-color: none;
+
   position: absolute;
   top: 15%;
   z-index: 999;
@@ -596,7 +596,7 @@ a:hover.sottolineatura {
 
 .resultext {
   background-color: var(--white);
-  border: 0.1rem solid black;
+
   position: absolute;
   top: 35%;
   z-index: 999;
@@ -607,6 +607,7 @@ a:hover.sottolineatura {
 }
 
 .share {
+  display: none;
   position: absolute;
   top: 80%;
   z-index: 999;
@@ -621,8 +622,7 @@ a:hover.sottolineatura {
 }
 
 .resultw {
-  background-color: white;
-  border: 0.1rem solid black;
+
   position: absolute;
   top: 15%;
   z-index: 999;
@@ -637,13 +637,12 @@ a:hover.sottolineatura {
 }
 
 .resultextw {
-  background-color: white;
-  border: 0.1rem solid black;
+
   position: absolute;
-  top: 35%;
+  top: 15%;
   z-index: 999;
   padding: 1rem 4rem;
-  left: 1%;
+  left: -5%;
   font-size: 1.5rem;
   font-family: var(--font-medium);
 }
@@ -1009,10 +1008,9 @@ a:hover.sottolineatura {
   }
 
   .result {
-    background-color: var(--white);
-    border: 0.4rem solid black;
+
     position: absolute;
-    top: 15%;
+    top: 10%;
     z-index: 999;
     padding: 1rem 4rem;
     left: 1%;
@@ -1025,10 +1023,10 @@ a:hover.sottolineatura {
   }
 
   .resultext {
-    background-color: var(--white);
-    border: 0.4rem solid black;
+
+
     position: absolute;
-    top: 30%;
+    top: 10%;
     z-index: 999;
     padding: 1rem 4rem;
     left: 1%;
@@ -1041,10 +1039,10 @@ a:hover.sottolineatura {
   }
 
   .resultw {
-    background-color: white;
-    border: 0.4rem solid black;
+
+
     position: absolute;
-    top: 15%;
+    top: 10%;
     z-index: 999;
     padding: 1rem 4rem;
     left: 1%;
@@ -1057,10 +1055,9 @@ a:hover.sottolineatura {
   }
 
   .resultextw {
-    background-color: white;
-    border: 0.4rem solid black;
+    background-color: var(--white);
     position: absolute;
-    top: 30%;
+    top: 10%;
     z-index: 999;
     padding: 1rem 4rem;
     left: 1%;
@@ -1512,8 +1509,7 @@ a:hover.sottolineatura {
   }
 
   .resultext {
-    background-color: var(--white);
-    border: 0.2rem solid black;
+
     position: absolute;
     top: 25%;
     z-index: 999;
@@ -1524,6 +1520,7 @@ a:hover.sottolineatura {
   }
 
   .share {
+    display: none;
     position: absolute;
     top: 85%;
     z-index: 999;
@@ -1534,8 +1531,7 @@ a:hover.sottolineatura {
   }
 
   .resultw {
-    background-color: white;
-    border: 0.2rem solid black;
+
     position: absolute;
     top: 12%;
     z-index: 999;
@@ -1550,10 +1546,9 @@ a:hover.sottolineatura {
   }
 
   .resultextw {
-    background-color: white;
-    border: 0.2rem solid black;
+
     position: absolute;
-    top: 25%;
+    top: 20%;
     z-index: 999;
     padding: 1rem 4rem;
     left: 1%;
