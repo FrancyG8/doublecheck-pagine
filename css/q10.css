@@ -428,6 +428,10 @@ a:hover {
   fill: var(--blue);
 }
 
+#domandaFatta {
+  fill: black;
+}
+
 /* Transizione */
 
 .animate-in {

@@ -433,7 +433,11 @@ a:hover {
     stroke-width: 2px;
   }
 
-  /* Transizione */
+  #domandaFatta {
+    fill: black;
+  }
+
+/* Transizione */
 .animate-in {
     -webkit-animation: fadeIn .5s ease-in;
     animation: fadeIn .5s ease-in;

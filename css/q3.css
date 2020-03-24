@@ -462,6 +462,10 @@ a:hover {
   fill: var(--blue);
 }
 
+#domandaFatta {
+  fill: black;
+}
+
 /* Transizione */
 .animate-in {
   -webkit-animation: fadeIn .5s ease-in;

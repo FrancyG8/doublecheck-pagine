@@ -411,6 +411,10 @@ a:hover {
   fill: var(--red)
 }
 
+#domandaFatta {
+  fill: black;
+}
+
 /* Transizione */
 
 .animate-in {

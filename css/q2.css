@@ -416,6 +416,10 @@ a:hover {
   letter-spacing: -0.03em;
 }
 
+#domandaFatta {
+  fill: black;
+}
+
 /* Transizione */
 .animate-in {
   -webkit-animation: fadeIn .5s ease-in;

@@ -440,6 +440,11 @@ a:hover {
 .cls-101 {
   fill: var(--green);
 }
+
+#domandaFatta {
+  fill: black;
+}
+
 /* Transizione */
 
 .animate-in {

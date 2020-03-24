@@ -426,6 +426,10 @@ a:hover {
     stroke-width: 2px;
   }
 
+  #domandaFatta {
+    fill: black;
+  }
+  
   /* Transizione */
 .animate-in {
     -webkit-animation: fadeIn .5s ease-in;
