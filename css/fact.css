@@ -163,7 +163,6 @@ a:hover {
   fill: white;
 }
 
-
 .cls-2,
 .cls-5 {
   fill: #fff;
@@ -171,7 +170,7 @@ a:hover {
 
 .cls-5 {
   font-size: 40px;
-  font-family: BandeinsStrangeSemiBold, Bandeins Strange;
+  font-family: var(--font-semibold);
 }
 
 .cls-4 {
@@ -534,6 +533,26 @@ a:hover {
   height: auto;
   z-index: 100;
   cursor: pointer;
+}
+
+#end1 {
+  width: 60%;
+  height: auto;
+  z-index: 100;
+  cursor: pointer;
+  float: right;
+  margin-top: -20%;
+  margin-right: -111%;
+}
+
+#end2 {
+  width: 60%;
+  height: auto;
+  z-index: 100;
+  cursor: pointer;
+  float: right;
+  margin-top: -20%;
+  margin-right: -111%;
 }
 
 #NEXTW {
