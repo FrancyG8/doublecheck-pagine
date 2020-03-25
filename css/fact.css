@@ -631,6 +631,26 @@ a:hover {
     margin-right: 4rem;
   }
 
+  #end1 {
+    width: 60%;
+    height: auto;
+    z-index: 100;
+    cursor: pointer;
+    float: right;
+    margin-top: -20%;
+    margin-right: -111%;
+  }
+
+  #end2 {
+    width: 60%;
+    height: auto;
+    z-index: 100;
+    cursor: pointer;
+    float: right;
+    margin-top: -20%;
+    margin-right: -111%;
+  }
+
   .nav {
     display: block;
     vertical-align: bottom;
@@ -658,6 +678,26 @@ a:hover {
     cursor: pointer;
     margin-bottom: 0.5rem;
     margin-right: 4rem;
+  }
+
+  #end1 {
+    width: 100%;
+    height: auto;
+    z-index: 100;
+    cursor: pointer;
+    float: right;
+    margin-top: -20%;
+    margin-right: -111%;
+  }
+
+  #end2 {
+    width: 100%;
+    height: auto;
+    z-index: 100;
+    cursor: pointer;
+    float: right;
+    margin-top: -20%;
+    margin-right: -111%;
   }
 
   #HINT {
