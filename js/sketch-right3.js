@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-  if (frameCount >= 150) {
+  if (frameCount >= 90) {
     window.open('../fact/fact3r.html?q3=' + check3, '_self');
   }
 }

@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-  if (frameCount >= 150) {
+  if (frameCount >= 90) {
     window.open('../fact/fact11r.html?q11=' + check11, '_self');
   }
 }

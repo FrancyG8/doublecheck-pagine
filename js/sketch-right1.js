@@ -15,7 +15,7 @@ function draw() {
 
   var check = url.searchParams.get("q1")
 
-  if (frameCount >= 150 && check == 1) {
+  if (frameCount >= 90 && check == 1) {
     window.open('../fact/fact1r.html?q1=' + giusto, '_self');
   }
 }
